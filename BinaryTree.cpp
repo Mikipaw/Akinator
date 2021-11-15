@@ -121,5 +121,43 @@ void BinaryTree::elements_(Node* node){
     }
 }
 
+int BinaryTree::do_question(Node* node) {
+    char answer = 0;
+    if (node->question) {
+        printf("Is the object %s?\n Press y (yes) or n (no)\n", node->data.string);
+        if (!scanf("%c", &answer)) return INVALID_ANSWER;
 
-#include "BinaryTree.h"
+        if (answer == 'y') return do_question(node->right);
+        else if (answer == 'n') return do_question(node->left);
+        else return INVALID_ANSWER;
+    }
+    printf("Is it %s?\n Press y (yes) or n (no)\n", node->data.string);
+    if (!scanf("%c", &answer)) return INVALID_ANSWER;
+
+    if      (answer == 'y') printf("Haha! I won the game! It was so easy!\n");
+    else if (answer == 'n') return Add_new_object(node);
+    else                    return INVALID_ANSWER;
+
+    return ALL_OK;
+}
+
+int BinaryTree::Add_new_object (Node* node) {
+    printf("I'm so sorry, I don't know what did you conceive.\n Let me know, what object are you talking about?\n");
+
+    char* new_object = new char[LIMITED_SIZE_OF_STRING];
+    if (!scanf("%s", new_object)) return INVALID_ANSWER;
+    node->right = new Node;
+    node->right->data.string = new_object;
+
+    node->left = new Node;
+    node->left->data = node->data;
+
+    printf("Which fact does distinguish your object?\n");
+    if (!scanf("%s", node->data.string)) return INVALID_ANSWER;
+    node->question = true;
+
+    printf("Thank you for game! See you later!\n");
+    size++;
+
+    return ALL_OK;
+}

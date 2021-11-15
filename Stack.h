@@ -15,11 +15,12 @@
 #define NAME(var) #var
 
 const long long STRANGE_NUMBER = 0xDEADBEEF;
+const int LIMITED_SIZE_OF_STRING = 31;
 
 struct simple_string{
     simple_string() = default;
-    char* string = nullptr;
-    size_t size = 0;
+    char* string = new char[LIMITED_SIZE_OF_STRING];
+    //size_t size = 0;
 };
 
 enum ERRORS{
@@ -389,7 +390,7 @@ simple_string& Stack::at(int index) const {
 void Stack::fill(){
     for (int i = 0; i < capacity; ++i) {
         data[i].string = nullptr;
-        data[i].size = 0;
+        //data[i].size = 0;
     }
 }
 
@@ -403,7 +404,7 @@ void Stack_info(const Stack& stack){
 
     for(int i = 0; i < stack.Get_Capacity(); ++i){
         printf("\t\t[%d] = ", i);
-        printf("%s, size = %ld\n",stack.at(i).string, stack.at(i).size);
+        //printf("%s, size = %ld\n",stack.at(i).string, stack.at(i).size);
     }
     printf("\t}\n");
 }
@@ -418,7 +419,7 @@ void Stack_info(const Stack& stack, FILE* log_file){
 
     for(int i = 0; i < stack.Get_Capacity(); ++i){
         fprintf(log_file, "\t\t[%d] = ", i);
-        fprintf(log_file, "%s, size = %ld\n", stack.at(i).string, stack.at(i).size);
+        //fprintf(log_file, "%s, size = %ld\n", stack.at(i).string, stack.at(i).size);
     }
     fprintf(log_file, "\t}\n");
 }

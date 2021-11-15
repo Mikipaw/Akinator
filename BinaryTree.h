@@ -8,6 +8,7 @@
 #include <cstdio>
 #include <cstring>
 #include "Stack.h"
+#include "ErrorList.h"
 
 typedef simple_string T;
 
@@ -50,12 +51,14 @@ public:
 
     bool erase(T item);
 
-
+    void start() { do_question(root); }
 
 private:
     void destroy_tree_(Node* node);
 
     void add_(T item, Node* node);
+
+    int do_question(Node* node);
 
     Node* search_(T item, Node *node) {
         if(node != nullptr){
@@ -65,6 +68,8 @@ private:
         }
         else return nullptr;
     }
+
+    int Add_new_object (Node* node);
 
     void f_round_(Node* node);
 
