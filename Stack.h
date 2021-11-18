@@ -15,12 +15,12 @@
 #define NAME(var) #var
 
 const long long STRANGE_NUMBER = 0xDEADBEEF;
-const int LIMITED_SIZE_OF_STRING = 31;
+const size_t LIMITED_SIZE_OF_STRING = 31;
 
 struct simple_string{
     simple_string() = default;
     char* string = new char[LIMITED_SIZE_OF_STRING];
-    //size_t size = 0;
+    size_t size = 0;
 };
 
 enum ERRORS{
@@ -38,7 +38,7 @@ enum ERRORS{
  * @param string
  * @return an integer - sum of chars
  */
-int charsum(const char* string);
+inline int charsum(const char* string);
 
 
 /*! \class Stack
@@ -74,7 +74,7 @@ public:
 
 
     int
-    StackError(int error_number);
+    inline StackError(int error_number);
 
     /*!
     *  @method bool push(const char*& item).
@@ -83,7 +83,7 @@ public:
     *
     *  @return a bool - true if operation was successful, false - if not
     */
-    bool
+    inline bool
     push(simple_string item);
 
 
@@ -95,7 +95,7 @@ public:
      *
      *  @return a bool - true if success, false if not
      */
-    bool
+    inline bool
     pop(simple_string* element);
 
     bool
@@ -107,10 +107,10 @@ public:
      *  @brief  Clearing data.
      *  @return nothing.
      */
-    void clear();
+    inline void clear();
 
     [[nodiscard]]
-    simple_string&
+    inline simple_string&
     at(int index) const;
 
     /*!
@@ -119,7 +119,7 @@ public:
      *
      *  @return nothing
      */
-    void
+    inline void
     Destruct();
 
     ~Stack() {
@@ -130,10 +130,10 @@ public:
     }
 
 
-    [[nodiscard]] size_t          Get_Size()      const;
-    [[nodiscard]] size_t          Get_Capacity()  const;
-    [[nodiscard]] simple_string*  Get_Data()      const;
-    [[nodiscard]] const char*     Get_Name()      const;
+    [[nodiscard]] inline size_t          Get_Size()      const;
+    [[nodiscard]] inline size_t          Get_Capacity()  const;
+    [[nodiscard]] inline simple_string*  Get_Data()      const;
+    [[nodiscard]] inline const char*     Get_Name()      const;
 
 private:
 
@@ -144,6 +144,7 @@ private:
     *
     *  @return nothing
     */
+    inline
     void fill();
 
     /*!
@@ -152,6 +153,7 @@ private:
     *  accessed.
     *  @return  Reference to data.
     */
+    inline
     simple_string&
     operator[](size_t index);
 
@@ -162,7 +164,7 @@ private:
     *
     *  @return nothing
     */
-    void
+    inline void
     Expand(bool* success);
 
     /*!
@@ -171,7 +173,7 @@ private:
     *
     *  @return nothing
     */
-    void
+    inline void
     Decrease();
 
     /*!
@@ -180,7 +182,7 @@ private:
     *
     *  @return bool - true if stack is ok, false if it is not ok.
     */
-    bool
+    inline bool
     Stack_OK();
 
 
@@ -202,6 +204,7 @@ private:
  * @param str2 - const char*
  * @return true if strings are equal, false if not
  */
+inline
 int str_equal(const char* str1, const char* str2);
 
 /*!
@@ -211,14 +214,17 @@ int str_equal(const char* str1, const char* str2);
  * @param str2 - const char*
  * @return -1 if <, 0 if ==, 1 if >.
  */
+inline
 int str_cmp (const char* str1, const char* str2);
 
+inline
 void Stack_info(const Stack& stack);
 
+inline
 void Stack_info(const Stack& stack, FILE* log_file);
 
 
-
+inline
 void Stack::Destruct(){
     this->Stack_OK();
     free(data);
@@ -226,6 +232,7 @@ void Stack::Destruct(){
     capacity = -1;
 }
 
+inline
 bool Stack::pop(simple_string* element){
     if(!this->Stack_OK()) return false;
 
@@ -247,6 +254,7 @@ bool Stack::pop(simple_string* element){
     return true;
 }
 
+inline
 bool Stack::pop(){
     if(!this->Stack_OK()) return false;
 
@@ -265,6 +273,7 @@ bool Stack::pop(){
 }
 
 
+inline
 bool Stack::push(simple_string item){
     if(!this->Stack_OK()) return false;
 
@@ -280,6 +289,7 @@ bool Stack::push(simple_string item){
     return push_success;
 }
 
+inline
 int Stack::StackError(int error_number){
     FILE* Log_file = fopen("Logs.txt", "wb");
     switch (error_number) {
@@ -318,10 +328,12 @@ int Stack::StackError(int error_number){
     return 1;
 }
 
+
+inline
 simple_string& Stack::operator[](size_t index){
     if(index < 0 || index >= size) {
         fprintf(stderr, "Out of range error at line %d:\n"
-                        "Index %d is out of range!\n", __LINE__, index);
+                        "Index %ld is out of range!\n", __LINE__, index);
         simple_string result;
 
         return result;
@@ -330,6 +342,7 @@ simple_string& Stack::operator[](size_t index){
     return data[index];
 }
 
+inline
 void Stack::Expand(bool* success) {
     (capacity*=2)++;
     data = (simple_string*) realloc(data, capacity*sizeof(simple_string));
@@ -338,11 +351,13 @@ void Stack::Expand(bool* success) {
 
 }
 
+inline
 void Stack::Decrease() {
     capacity/=2;
     data = (simple_string*) realloc(data, capacity*sizeof(simple_string));
 }
 
+inline
 bool Stack::Stack_OK() {
 
     if(this == nullptr) {   //NULL POINTER
@@ -374,19 +389,24 @@ bool Stack::Stack_OK() {
     return true;
 }
 
+inline
 size_t Stack::Get_Size() const { return size; }
 
+inline
 size_t Stack::Get_Capacity() const { return capacity; }
 
+inline
 simple_string* Stack::Get_Data() const { return data; }
 
+inline
 const char* Stack::Get_Name() const { return name; }
 
-
+inline
 simple_string& Stack::at(int index) const {
     return *(data + index);
 }
 
+inline
 void Stack::fill(){
     for (int i = 0; i < capacity; ++i) {
         data[i].string = nullptr;
@@ -394,12 +414,13 @@ void Stack::fill(){
     }
 }
 
+inline
 void Stack_info(const Stack& stack){
     printf("Stack = [%p], \"%s\"\n", &stack, stack.Get_Name());
     printf("{\n");
-    printf("\tsize = %d\n",     stack.Get_Size());
-    printf("\tcapacity = %d\n", stack.Get_Capacity());
-    printf("\tdata [%p]\n",     stack.Get_Data());
+    printf("\tsize = %ld\n",     stack.Get_Size());
+    printf("\tcapacity = %ld\n", stack.Get_Capacity());
+    printf("\tdata [%p]\n",      stack.Get_Data());
     printf("\t{\n");
 
     for(int i = 0; i < stack.Get_Capacity(); ++i){
@@ -409,12 +430,13 @@ void Stack_info(const Stack& stack){
     printf("\t}\n");
 }
 
+inline
 void Stack_info(const Stack& stack, FILE* log_file){
     fprintf(log_file, "Stack = [%p], \"%s\"\n", &stack, stack.Get_Name());
     fprintf(log_file, "{\n");
-    fprintf(log_file, "\tsize = %d\n",     stack.Get_Size());
-    fprintf(log_file, "\tcapacity = %d\n", stack.Get_Capacity());
-    fprintf(log_file, "\tdata [%p]\n",     stack.Get_Data());
+    fprintf(log_file, "\tsize = %ld\n",     stack.Get_Size());
+    fprintf(log_file, "\tcapacity = %ld\n", stack.Get_Capacity());
+    fprintf(log_file, "\tdata [%p]\n",      stack.Get_Data());
     fprintf(log_file, "\t{\n");
 
     for(int i = 0; i < stack.Get_Capacity(); ++i){
@@ -424,11 +446,11 @@ void Stack_info(const Stack& stack, FILE* log_file){
     fprintf(log_file, "\t}\n");
 }
 
-void Stack::clear() {
+inline void Stack::clear() {
     while (size != 0) pop();
 }
 
-int str_cmp (const char* str1, const char* str2) {
+inline int str_cmp (const char* str1, const char* str2) {
     int i = 0, j = 0;
     while(true){
         while(!(isalpha(str1[i]) || str1[i] == '\0')) i++;
@@ -448,26 +470,54 @@ int str_cmp (const char* str1, const char* str2) {
     }
 }
 
-bool operator==(const simple_string& ss1, const simple_string& ss2) {
+inline bool operator==(const simple_string& ss1, const simple_string& ss2) {
     if (!str_cmp(ss1.string, ss2.string)) return true;
     else return false;
 }
 
 
-bool operator>(const simple_string& ss1, const simple_string& ss2) {
+inline bool operator>(const simple_string& ss1, const simple_string& ss2) {
     return str_cmp(ss1.string, ss2.string) > 0;
 }
 
-bool operator>=(const simple_string& ss1, const simple_string& ss2) {
+inline bool operator>=(const simple_string& ss1, const simple_string& ss2) {
     return str_cmp(ss1.string, ss2.string) >= 0;
 }
 
-bool operator<(const simple_string& ss1, const simple_string& ss2) {
+inline bool operator<(const simple_string& ss1, const simple_string& ss2) {
     return str_cmp(ss1.string, ss2.string) < 0;
 }
 
-bool operator<=(const simple_string& ss1, const simple_string& ss2) {
+inline bool operator<=(const simple_string& ss1, const simple_string& ss2) {
     return str_cmp(ss1.string, ss2.string) <= 0;
 }
+
+inline int str_equal(const char* str1, const char* str2){
+    int i = 0;
+    while(true){
+        if(str1[i] == '\0' && str2[i] == '\0') return true;
+        if(str1[i] == str2[i]){
+            ++i;
+            continue;
+        }
+        return false;
+    }
+}
+
+inline int Arrange_str_ptrs(simple_string* pointers, size_t number_of_lines, char* text) {
+    assert(pointers != nullptr);
+    assert(text != nullptr);
+    int number_of_empty_lines = 0;
+    pointers[0].string = text;
+    for (int i = 1; i < number_of_lines; ++i) {
+        text = strchr(text, '\0');
+        text++;
+        pointers[i].string = text;
+        pointers[i - 1].size = (int) (pointers[i].string - pointers[i - 1].string);
+    }
+
+    return number_of_empty_lines;
+}
+
 
 #endif //AKINATOR_STACK_H

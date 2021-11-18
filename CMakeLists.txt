@@ -3,4 +3,4 @@ project(Akinator)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Akinator main.cpp BinaryTree.cpp BinaryTree.h)
+add_executable(Akinator main.cpp BinaryTree.cpp mystr.cpp)
