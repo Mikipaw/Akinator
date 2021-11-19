@@ -6,7 +6,7 @@
 #define AKINATOR_BINARYTREE_H
 
 #include <cstdio>
-#include <cstring>
+#include <string.h>
 #include "Stack.h"
 #include "ErrorList.h"
 #include "mystr.h"

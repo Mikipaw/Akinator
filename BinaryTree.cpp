@@ -96,9 +96,15 @@ void BinaryTree::add_(T item, Node* node){
 
 void BinaryTree::f_round_(Node* node){
     if(node != nullptr) {
-        if (node->question) strcat (f_round_str, "?");
+        if (node->question) node->data.string[0] = '?';
+
+        size_t length = strlen(node->data.string);
+
+        node->data.string[length - 1] = '.';
+        //node->data.string[length - 2] = '.';
+
         strcat (f_round_str, node->data.string);
-        strcat (f_round_str, ".");
+        strcat (f_round_str, "\n");
 
         f_round_(node->left);
         f_round_(node->right);
@@ -153,17 +159,20 @@ int BinaryTree::Add_new_object (Node* node) {
     if (!getline(&new_object, &_size, stdin)) return INVALID_ANSWER;
     node->right = new Node;
     node->right->data.string = new_object;
-    node->right->data.string[LIMITED_SIZE_OF_STRING - 2] = '\n';
-    node->right->data.string[LIMITED_SIZE_OF_STRING - 3] = '.';
+
+    size_t length = strlen(new_object);
+    node->right->data.string[length - 1] = '\n';
+    node->right->data.string[length - 2] = '.';
 
     node->left = new Node;
     node->left->data = node->data;
+    length = strlen(node->data.string);
 
     node->data.string = new char[LIMITED_SIZE_OF_STRING];
     printf("Which fact does distinguish your object?\n");
     if (!getline(&node->data.string, &_size, stdin)) return INVALID_ANSWER;
-    node->data.string[LIMITED_SIZE_OF_STRING - 2] = '\n';
-    node->data.string[LIMITED_SIZE_OF_STRING - 3] = '.';
+    node->data.string[LIMITED_SIZE_OF_STRING - 1] = '\n';
+    node->data.string[LIMITED_SIZE_OF_STRING - 2] = '.';
     node->question = true;
 
     printf("Thank you for game! See you later!\n");
@@ -186,6 +195,8 @@ BinaryTree::BinaryTree(const char* input) {
     size_t size_of_file = Size_of_file(database);
     size_t number_of_lines = 0;
     text = text_from_file(database, size_of_file, &number_of_lines);
+
+    size = (int) number_of_lines;
     //auto pointers = (simple_string *) calloc(number_of_lines + 1, sizeof(simple_string));
     //Arrange_str_ptrs(pointers, number_of_lines, text);
     Read_in_tree(&number_of_lines, root);
@@ -219,10 +230,10 @@ void BinaryTree::destroy_tree() {
     f_round_str = (char*) calloc(size + 1, sizeof(LIMITED_SIZE_OF_STRING));
     f_round_(root);
 
+
     FILE* output = fopen("database.txt", "wb");
     fputs(f_round_str, output);
 
-    //TODO:node->right read function
     fclose(output);
     destroy_tree_(root);
 }
@@ -259,7 +270,7 @@ void BinaryTree::Read_in_tree(size_t* number_of_lines, Node* node) {
 
     if (text[0] == '?') {
         node->question = true;
-        text++;
+        text[0] = '\t';
     }
 
     node->data.string = text;
