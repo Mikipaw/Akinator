@@ -2,16 +2,19 @@
 // Created by mikhalinho on 13.11.2021.
 //
 
-#ifndef AKINATOR_BINARYTREE_H
-#define AKINATOR_BINARYTREE_H
+#ifndef AKINATOR_AKINATOR_H
+#define AKINATOR_AKINATOR_H
 
-#include <cstdio>
 #include <string.h>
 #include "Stack.h"
 #include "ErrorList.h"
 #include "mystr.h"
 
 typedef simple_string T;
+
+inline const char* OUTPUT_FILE_NAME = "Dump_file0.jpg";
+inline const char* DOT              = R"(dot Graph.dot -Tjpg -o )";
+
 
 struct Node {
     T data;
@@ -21,24 +24,17 @@ struct Node {
     bool question = false;
 };
 
-char* get_line(char* buffer, int max_size);
-
 char* strchar(char* buffer, char sym);
 
-class BinaryTree {
+class Akinator {
 
 public:
 
-    BinaryTree();
+    Akinator();
 
-    explicit BinaryTree(const char* input);
+    explicit Akinator(const char* input);
 
-    BinaryTree(T *array, int arr_size);
-
-    ~BinaryTree() { destroy_tree(); }
-
-    void
-    add(T item);
+    ~Akinator() { destroy_tree(); }
 
     Node*
     search(T item) { return search_(item, root); }
@@ -49,16 +45,14 @@ public:
     bool
     contains(T item);
 
-    int
+    [[nodiscard]] int
     get_height() { return get_height_(root); }
 
-    int
+    [[nodiscard]] int
     get_size() const { return size; }
 
     bool
     is_empty() { return !root; }
-
-    //char* f_round();
 
     Stack
     elements();
@@ -66,24 +60,28 @@ public:
     bool
     erase(T item);
 
+    int
+    Dump();
+
     void
-    start() { do_question(root); }
+    start() { do_question(root); };
 
 private:
     void destroy_tree_(Node *node);
 
-    void add_from_file (Node* node, simple_string* pointers, size_t* limit);
+    void _dumpE (Node* node) const;
 
-    void add_(T item, Node *node);
+    void _dumpV (Node* node) const;
 
     int do_question(Node *node);
 
     Node *search_(T item, Node *node) {
         if (node != nullptr) {
             if (item == node->data) return node;
-            if (item < node->data) return search_(item, node->left);
-            else return search_(item, node->right);
-        } else return nullptr;
+            if (item < node->data)  return search_(item, node->left);
+            else                    return search_(item, node->right);
+        }
+        else return nullptr;
     }
 
     int Add_new_object(Node *node);
@@ -96,16 +94,10 @@ private:
 
     void elements_(Node *node);
 
-    Node *minValueNode(Node *node) {
-        Node *current = node;
-        while (current && current->left != nullptr) current = current->left;
-        return current;
-    }
-
     Node *erase_(T item, Node *node);
 
     int size = 1;
-    int index = 0;
+    //int index = 0;
     Stack Elements;
     Node* root;
     char* f_round_str;
@@ -114,6 +106,4 @@ private:
 
 };
 
-//TODO: problems in output and shit with scanf
-
-#endif //AKINATOR_BINARYTREE_H
+#endif //AKINATOR_AKINATOR_H

@@ -1,7 +1,13 @@
 ?do math.
 ?playing chess.
-dima.
-petya.
+?owner.
+Michael.
+Dima.
+?Mezhnar.
+Den.
+Nadya.
 ?playing cards.
-semion.
+Semion.
+?Tatarin.
+Askar.
 Oleg.

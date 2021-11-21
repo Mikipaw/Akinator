@@ -5,8 +5,8 @@
 #ifndef AKINATOR_MYSTR_H
 #define AKINATOR_MYSTR_H
 
-#include "cstdio"
-#include "cstdlib"
+#include "stdio.h"
+#include "stdlib.h"
 
 char* text_from_file(FILE* file_name, size_t size_of_file, size_t* number_of_lines);
 

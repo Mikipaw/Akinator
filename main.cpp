@@ -1,9 +1,10 @@
-#include "BinaryTree.h"
+#include "Akinator.h"
 
 int main() {
     const char* input = "database.txt";
-    BinaryTree bt = BinaryTree(input);
-    bt.start();
+    Akinator bt = Akinator(input);
+    //bt.start();
+    bt.Dump();
 
     return 0;
 }
