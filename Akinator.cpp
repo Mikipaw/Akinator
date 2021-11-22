@@ -60,7 +60,7 @@ void Akinator::f_round_(Node* node){
 }
 
 
-int Akinator::get_height_(const Node *node) {
+int Akinator::get_height_(const Node *node) const{
     if (node == nullptr) return 0;
 
     int lHeight = get_height_(node->left);
@@ -69,6 +69,7 @@ int Akinator::get_height_(const Node *node) {
     if(lHeight > rHeight) return (lHeight + 1);
     else return (rHeight + 1);
 }
+
 
 void Akinator::elements_(Node* node){
     if(node != nullptr){
@@ -99,6 +100,7 @@ int Akinator::do_question(Node* node) {
     return ALL_OK;
 }
 
+
 int Akinator::Add_new_object (Node* node) {
     printf("I'm so sorry, I don't know what did you conceive.\n Let me know, what object are you talking about?\n");
 
@@ -127,8 +129,11 @@ int Akinator::Add_new_object (Node* node) {
     printf("Thank you for game! See you later!\n");
     size += 2;
 
+    if (verification()) return verification();
+
     return ALL_OK;
 }
+
 
 Akinator::Akinator() {
     root = new Node;
@@ -137,6 +142,7 @@ Akinator::Akinator() {
     root->data.size = strlen("Nobody\n");
     f_round_str = nullptr;
 }
+
 
 Akinator::Akinator(const char* input) {
     root = new Node;
@@ -211,11 +217,17 @@ char* strchar(char* buffer, char sym) {
 void Akinator::_dumpE (Node* node) const {
     if (node == nullptr) return;
 
-    char* tmp_string = new char[5 * LIMITED_SIZE_OF_STRING];
+    char* tmp_string = new char[8 * LIMITED_SIZE_OF_STRING];
+
+    char* color = nullptr;
+
+    if (node->question) color = (char*) GOLD;
+    else                color = (char*) LIME;
 
     sprintf(tmp_string,
+            "node%p[ style = \"filled, rounded\", fillcolor = \"%s\"]"
             "node%p [label=\"<f0> name (%s)|<f1> address (%p)|<f2> left (%p)|<f3> right (%p)\"];\n",
-            node, node->data.string, node, node->left, node->right);
+            node, color, node, node->data.string, node, node->left, node->right);
 
     strcat(f_round_str, tmp_string);
 
@@ -242,6 +254,8 @@ void Akinator::_dumpV (Node* node) const {
 }
 
 int Akinator::Dump() {
+    if (verification()) return verification();
+
     FILE* Graph = fopen("Graph.dot", "wb");
     if(Graph == nullptr) fprintf(stderr, "Error opening file!\n");
 
@@ -276,6 +290,52 @@ int Akinator::Dump() {
     free(command);
 
     //free(f_round_str);
+    if (verification()) return verification();
 
     return ALL_OK;
 }
+
+int Akinator::check (Node* node) {
+    if (node == nullptr) return ALL_OK;
+
+    if (node->question) {
+        if (node->left == nullptr || node->right == nullptr) {
+            fprintf(stderr, "Invalid pointer...\n");
+            return INVALID_POINTER;
+        }
+    }
+    else {
+        if (node->left != nullptr || node->right != nullptr) {
+            fprintf(stderr, "Invalid pointer...\n");
+            return INVALID_POINTER;
+        }
+    }
+
+    int error_code = ALL_OK;
+    error_code = check(node->left);
+    if (error_code) return error_code;
+
+    error_code = check(node->right);
+    if (error_code) return error_code;
+
+    return ALL_OK;
+}
+
+Stack Akinator::definition(const char* object) {
+    simple_string ss;
+    ss.string = (char*) object;
+
+    Node* result = search(ss);
+
+    if (result != nullptr) {
+        printf("Object is\n1)%s", Elements.at(0).string);
+
+        for (int i = 1; i < Elements.Get_Size(); ++i) {
+            printf("%d)%s", i + 1, Elements.at(i).string);
+        }
+        printf("\n");
+    }
+    else printf("Object wasn't found!\n");
+
+    return elements();
+};

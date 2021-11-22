@@ -5,6 +5,7 @@ int main() {
     Akinator bt = Akinator(input);
     //bt.start();
     bt.Dump();
+    bt.definition("Dimas");
 
     return 0;
 }

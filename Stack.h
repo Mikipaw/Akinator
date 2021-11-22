@@ -19,6 +19,9 @@ const size_t LIMITED_SIZE_OF_STRING = 31;
 
 struct simple_string{
     simple_string() = default;
+    explicit simple_string(size_t capacity) {
+        string = new char[capacity];
+    }
     char* string = new char[LIMITED_SIZE_OF_STRING];
     size_t size = 0;
 };
@@ -125,7 +128,7 @@ public:
     ~Stack() {
         size = -1;
         capacity = -1;
-        free(data);
+        //free(data);
         //*data = 13;
     }
 
@@ -348,7 +351,6 @@ void Stack::Expand(bool* success) {
     data = (simple_string*) realloc(data, capacity*sizeof(simple_string));
     if (data == nullptr) *success = false;
 
-
 }
 
 inline
@@ -381,7 +383,7 @@ bool Stack::Stack_OK() {
     }
 
     for (int i = size; i < capacity; ++i) {
-        if(str_equal(data[i].string, "")) break;
+        if(str_equal(data[i].string, nullptr)) break;
         StackError(UNAVAILABLE_ELEMENTS_WAS_CHANGED);
         return false;
     }
@@ -494,8 +496,11 @@ inline bool operator<=(const simple_string& ss1, const simple_string& ss2) {
 
 inline int str_equal(const char* str1, const char* str2){
     int i = 0;
+    if (str1 == nullptr && str2 == nullptr) return true;
+    if (str1 == nullptr || str2 == nullptr) return false;
+
     while(true){
-        if(str1[i] == '\0' && str2[i] == '\0') return true;
+        if ((str1[i] == '\n' || str1[i] == '\0') && (str2[i] == '\n' || str2[i] == '\0')) return true;
         if(str1[i] == str2[i]){
             ++i;
             continue;
