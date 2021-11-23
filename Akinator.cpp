@@ -84,14 +84,20 @@ int Akinator::do_question(Node* node) {
     char answer = 0;
     if (node->question) {
         printf("Is the object %s?\n Press y (yes) or n (no)\n", node->data.string);
-        if (!scanf("%c\n", &answer)) return INVALID_ANSWER;
+        if (!scanf("%c\n", &answer)) {
+            printf("%c\n", answer);
+            return INVALID_ANSWER;
+        }
 
         if      (answer == 'y') return do_question(node->left);
         else if (answer == 'n') return do_question(node->right);
-        else return INVALID_ANSWER;
+        else {
+            printf("%c\n", answer);
+            return INVALID_ANSWER;
+        }
     }
     printf("Is it %s?\n Press y (yes) or n (no)\n", node->data.string);
-    if (!scanf("%c", &answer)) return INVALID_ANSWER;
+    if (!scanf("%c\n", &answer)) return INVALID_ANSWER;
 
     if      (answer == 'y') printf("Haha! I won the game! It was so easy!\n");
     else if (answer == 'n') return Add_new_object(node);
@@ -217,7 +223,7 @@ char* strchar(char* buffer, char sym) {
 void Akinator::_dumpE (Node* node) const {
     if (node == nullptr) return;
 
-    char* tmp_string = new char[8 * LIMITED_SIZE_OF_STRING];
+    char* tmp_string = (char*) calloc(15, LIMITED_SIZE_OF_STRING);
 
     char* color = nullptr;
 
@@ -234,23 +240,28 @@ void Akinator::_dumpE (Node* node) const {
     if (node->left  != nullptr) _dumpE(node->left);
     if (node->right != nullptr) _dumpE(node->right);
 
+    free(tmp_string);
+
 }
 
 void Akinator::_dumpV (Node* node) const {
     if (node != nullptr) {
-        char* tmp_string = (char*) calloc(2, LIMITED_SIZE_OF_STRING);
+        char* temp_string = (char*) calloc(15, LIMITED_SIZE_OF_STRING);
         if (node->right != nullptr) {
-            sprintf(tmp_string, "node%p:f3 -> node%p:f0;\n", node, node->right);
-            strcat(f_round_str, tmp_string);
+            sprintf(temp_string, "node%p:f3 -> node%p:f0;\n", node, node->right);
+            strcat(f_round_str, temp_string);
             _dumpV(node->right);
         }
 
         if (node->left  != nullptr) {
-            sprintf(tmp_string, "node%p:f2 -> node%p:f0;\n", node, node->left);
-            strcat(f_round_str, tmp_string);
+            sprintf(temp_string, "node%p:f2 -> node%p:f0;\n", node, node->left);
+            strcat(f_round_str, temp_string);
             _dumpV(node->left);
         }
+
+        free(temp_string);
     }
+
 }
 
 int Akinator::Dump() {
@@ -259,7 +270,7 @@ int Akinator::Dump() {
     FILE* Graph = fopen("Graph.dot", "wb");
     if(Graph == nullptr) fprintf(stderr, "Error opening file!\n");
 
-    f_round_str = (char*) calloc(size, 100);
+    f_round_str = (char*) calloc(size, LIMITED_SIZE_OF_STRING * LIMITED_SIZE_OF_STRING);
 
     const char* DEFAULT_TEXT = "digraph G{\n"
                                "edge [color = \"darkgreen\"];\n"
@@ -295,7 +306,7 @@ int Akinator::Dump() {
     return ALL_OK;
 }
 
-int Akinator::check (Node* node) {
+int Akinator::check (Node* node) const{
     if (node == nullptr) return ALL_OK;
 
     if (node->question) {

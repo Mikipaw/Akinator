@@ -18,7 +18,14 @@ inline const char* DOT              = R"(dot Graph.dot -Tjpg -o )";
 inline const char* GOLD = "gold";
 inline const char* LIME = "lime";
 
-
+/*!
+ * @struct Node
+ * @brief classical node of binary tree with bool param
+ * @param data - data
+ * @param left - pointer to the left childnode
+ * @param right - pointer to the right childnode
+ * @param question - question (true) or object (false)
+ */
 struct Node {
     T data;
     Node *left = nullptr;
@@ -27,27 +34,72 @@ struct Node {
     bool question = false;
 };
 
+
+/*!
+ * @function strchar(char* buffer, char sym)
+ * @brief Function finds the first symbol 'sym' in string 'buffer' and returns pointer to it (or nullptr if wasn't found)
+ * @param buffer - char* (source string)
+ * @param sym - char (symbol user wants to find)
+ * @return char* - pointer to the first symbol 'sym' in 'buffer'
+ */
 char* strchar(char* buffer, char sym);
 
+
+/*!
+ * @class Akinator
+ * @brief classical Akinator game with database contains English words no longer then 31 symbol.
+ * @param size          - number of elements in database.
+ * @param Elements      - stack which helps to show the objects features.
+ * @param root          - pointer to the root of binary tree (first question in the game).
+ * @param f_round_str   - string needs to tree traversal.
+ * @param freebuf       - string needs to save in strings for short time.
+ * @param text          - string needs to save the text from file in buffer.
+ */
 class Akinator {
 
 public:
 
+    //!Classical constructor
     Akinator();
 
+    //!The constructor creates the tree using the text file database.
     explicit Akinator(const char* input);
 
+    //!Classical destructor
     ~Akinator() { destroy_tree(); }
 
+    /*!
+     * @method search(T item)
+     * @brief This method searches object 'item' in binary tree.
+     * @param item - object user wants to find.
+     * @return Node* - pointer to the node contains 'item' or nullptr if 'item' doesn't exist in tree.
+     */
     Node*
     search(T item) { return search_(item, root); }
 
+
+    /*!
+     * @method destroy_tree()
+     * @brief This method destroys the binary tree.
+     * @return Nothing.
+     */
     void
     destroy_tree();
 
+    /*!
+     * @method contains(T item)
+     * @brief The method answers the question if the tree contains 'item'.
+     * @param item - object user wants to find.
+     * @return true (if 'item' in tree) or false (in other cases)
+     */
     bool
     contains(T item);
 
+    /*!
+     * @method get_height()
+     * @brief function recursively finds the height of tree (radius of graph).
+     * @return int - height of tree.
+     */
     [[nodiscard]] int
     get_height() const { return get_height_(root); }
 
@@ -57,26 +109,62 @@ public:
     bool
     is_empty() { return !root; }
 
+    /*!
+     * @method elements()
+     * @brief returns all elements of tree.
+     * @warning function wasn't tested in new version of Akinator tree. Don't use it before it will be fixed.
+     * @return Stack with elements of binary tree.
+     */
     Stack
     elements();
 
+    /*!
+     * @method erase (T item)
+     * @brief Finds the object 'item' in tree and deletes it.
+     * @warning function wasn't tested in new version of Akinator tree. Don't use it before it will be fixed.
+     * @param item - item user wants to delete from tree.
+     * @return true if operation was successful, false if item wasn't found.
+     */
     bool
     erase(T item);
 
+    /*!
+     * @method Dump()
+     * @brief creates the jpg picture of three using 'Graphviz'
+     * @warning don't use the function if you don't have Graphviz.
+     * @return int - error code
+     */
     int
     Dump();
 
-    void
-    start() { do_question(root); };
-
+    /*!
+     * @method start()
+     * @brief Starts the Akinator game.
+     * @return int - error code.
+     */
     int
-    verification() { return check(root);};
+    start() { return do_question(root); };
 
+    /*!
+     * @method verification()
+     * @brief  tests the Akinator. Recommend to use it before starting game.
+     * @return error code (0 if all ok).
+     */
+    int
+    verification() const{ return check(root);};
+
+    /*!
+     * @method definition (const char* object)
+     * @brief prints the definition of object in console.
+     * @param object - object user wants to know a definition.
+     * @return Stack with characteristics of the object.
+     */
     Stack
     definition (const char* object);
 
+
 private:
-    int check (Node* node);
+    int check (Node* node) const;
 
     void destroy_tree_(Node *node);
 
@@ -137,26 +225,6 @@ inline Node* Akinator::search_(T item, Node *node) {
         if (new_node == nullptr) Elements.pop();
         return new_node;
     }
-
-    /*if (str_equal(node->data.string, item.string)) return node;
-
-    Elements.push(node->data);
-    Node* newNode = search_(item, node->left);
-
-    if (newNode != nullptr) return newNode;
-    else {
-        //Elements.pop();
-        simple_string tmp_ss;
-        Elements.pop(&tmp_ss);
-
-        simple_string denial(LIMITED_SIZE_OF_STRING * 2);
-        strcpy(denial.string, "not ");
-
-        strcat(denial.string, tmp_ss.string);
-        Elements.push(denial);
-
-        return search_(item, node->right);
-    }*/
 }
 
 #endif //AKINATOR_AKINATOR_H
