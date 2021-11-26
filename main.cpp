@@ -16,10 +16,10 @@
 int main() {
     const char* input = "database.txt";
     Akinator akinator = Akinator(input);
-    akinator.start();
-    akinator.Dump();
-    return akinator.start();
-    //akinator.definition("Dimas");
+    //akinator.start();
+    //akinator.Dump();
+    //return akinator.start();
+    akinator.definition("Den");
 
     return 0;
 }

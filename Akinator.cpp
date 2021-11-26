@@ -336,17 +336,37 @@ Stack Akinator::definition(const char* object) {
     simple_string ss;
     ss.string = (char*) object;
 
+    char* speech = (char*) calloc(size + 1, LIMITED_SIZE_OF_STRING + 10);
+    char* word   = (char*) calloc(2, LIMITED_SIZE_OF_STRING);
+
+    strcat(speech, "espeak ");
+
     Node* result = search(ss);
 
     if (result != nullptr) {
-        printf("Object is\n1)%s", Elements.at(0).string);
+        strcpy(word, Elements.at(0).string);
+        printf("%s is\n1)", object);
+        strcat(speech, word);
 
         for (int i = 1; i < Elements.Get_Size(); ++i) {
-            printf("%d)%s", i + 1, Elements.at(i).string);
+            sprintf(word, "%d)%s", i + 1, Elements.at(i).string);
+            strcat(speech, word);
         }
+
+        printf("%s", speech + 6);
         printf("\n");
     }
     else printf("Object wasn't found!\n");
 
+    for (int i = 8; i < strlen(speech); ++i) {
+        if (!std::isalpha(speech[i])) speech[i] = '_';
+    }
+
+    strcat(speech, " -s 100");
+
+    system(speech);
+
+    free(word);
+    free(speech);
     return elements();
 };
