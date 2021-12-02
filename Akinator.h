@@ -192,7 +192,7 @@ private:
     Stack Elements = Stack(16);
     Node* root;
     char* f_round_str;
-    char* freebuf = new char[LIMITED_SIZE_OF_STRING];
+    char* freebuf = new char[LIMITED_SIZE_OF_STRING * 10];
     char* text = nullptr;
 
 };
@@ -226,5 +226,7 @@ inline Node* Akinator::search_(T item, Node *node) {
         return new_node;
     }
 }
+
+int speak(const char* string);
 
 #endif //AKINATOR_AKINATOR_H

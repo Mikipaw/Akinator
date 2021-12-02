@@ -11,15 +11,6 @@
  *  @copyright GNU Public License.
  */
 
-#include "Akinator.h"
+#include "Interface.h"
 
-int main() {
-    const char* input = "database.txt";
-    Akinator akinator = Akinator(input);
-    //akinator.start();
-    //akinator.Dump();
-    //return akinator.start();
-    akinator.definition("Den");
-
-    return 0;
-}
+int main() { return Interface(); }

@@ -2,6 +2,7 @@
 // Created by mikhalinho on 17.11.2021.
 //
 
+#include <locale>
 #include "mystr.h"
 
 char* text_from_file(FILE* file_name, size_t size_of_file, size_t* number_of_lines){
@@ -26,3 +27,9 @@ size_t Size_of_file(FILE* name_of_file) {
     return size_of_file;
 }
 
+int replace_spaces(char* word) {
+    for (int i = 8; i < strlen(word); ++i)
+        if (!(std::isalpha(word[i]) || word[i] == '!' || word[i] == '?' || word[i] == ',' || word[i] == '.')) word[i] = '_';
+
+    return 0;
+}

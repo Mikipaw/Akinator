@@ -3,4 +3,4 @@ project(Akinator)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Akinator mystr.cpp Akinator.cpp main.cpp)
+add_executable(Akinator mystr.cpp Akinator.cpp Interface.cpp main.cpp)

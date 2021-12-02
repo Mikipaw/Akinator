@@ -83,8 +83,9 @@ void Akinator::elements_(Node* node){
 int Akinator::do_question(Node* node) {
     char answer = 0;
     if (node->question) {
-        printf("Is the object %s?\n Press y (yes) or n (no)\n", node->data.string);
-        if (!scanf("%c\n", &answer)) {
+        sprintf(freebuf, "Is the object %s?\n Press y (yes) or n (no)\n", node->data.string);
+        speak(freebuf);
+        if (!scanf("\n%c", &answer)) {
             printf("%c\n", answer);
             return INVALID_ANSWER;
         }
@@ -96,10 +97,12 @@ int Akinator::do_question(Node* node) {
             return INVALID_ANSWER;
         }
     }
-    printf("Is it %s?\n Press y (yes) or n (no)\n", node->data.string);
-    if (!scanf("%c\n", &answer)) return INVALID_ANSWER;
 
-    if      (answer == 'y') printf("Haha! I won the game! It was so easy!\n");
+    sprintf(freebuf, "Is it %s?\n Press y (yes) or n (no)\n", node->data.string);
+    speak(freebuf);
+    if (!scanf("\n%c", &answer)) return INVALID_ANSWER;
+
+    if      (answer == 'y') speak("Haha!!! I won the game! It was so fucking easy!\n");
     else if (answer == 'n') return Add_new_object(node);
     else                    return INVALID_ANSWER;
 
@@ -108,7 +111,7 @@ int Akinator::do_question(Node* node) {
 
 
 int Akinator::Add_new_object (Node* node) {
-    printf("I'm so sorry, I don't know what did you conceive.\n Let me know, what object are you talking about?\n");
+    speak("I'm so sorry, I don't know what did you conceive.\n Let me know, what object are you talking about?\n");
 
     size_t _size = LIMITED_SIZE_OF_STRING;
     char* new_object = new char[LIMITED_SIZE_OF_STRING];
@@ -126,13 +129,13 @@ int Akinator::Add_new_object (Node* node) {
     node->data.string = new char[LIMITED_SIZE_OF_STRING];
     char* temp_str = node->data.string;
     temp_str++;
-    printf("Which fact does distinguish your object?\n");
+    speak("Which fact does distinguish your object?\n");
     if (!getline(&temp_str, &_size, stdin)) return INVALID_ANSWER;
     length = strlen(node->data.string);
     node->data.string[length - 1] = '\n';
     node->question = true;
 
-    printf("Thank you for game! See you later!\n");
+    speak("Thank you for game! See you later!\n");
     size += 2;
 
     if (verification()) return verification();
@@ -356,7 +359,10 @@ Stack Akinator::definition(const char* object) {
         printf("%s", speech + 6);
         printf("\n");
     }
-    else printf("Object wasn't found!\n");
+    else {
+        speak("Object wasn't found!");
+        return elements();
+    }
 
     for (int i = 8; i < strlen(speech); ++i) {
         if (!std::isalpha(speech[i])) speech[i] = '_';
@@ -370,3 +376,20 @@ Stack Akinator::definition(const char* object) {
     free(speech);
     return elements();
 };
+
+
+int speak(const char* string) {
+    puts(string);
+
+    char* speech = (char*) calloc(10 + strlen(string), sizeof(char));
+
+    strcpy(speech, "espeak ");
+    strcat(speech, string);
+    replace_spaces(speech);
+
+    system(speech);
+
+    free(speech);
+
+    return ALL_OK;
+}

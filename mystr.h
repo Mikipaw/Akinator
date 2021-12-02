@@ -7,6 +7,7 @@
 
 #include "stdio.h"
 #include "stdlib.h"
+#include <cstring>
 
 char* text_from_file(FILE* file_name, size_t size_of_file, size_t* number_of_lines);
 
@@ -17,6 +18,9 @@ char* text_from_file(FILE* file_name, size_t size_of_file, size_t* number_of_lin
 *  \return size_t - number of chars
 */
 size_t Size_of_file(FILE* name_of_file);
+
+
+int replace_spaces(char* word);
 
 
 #endif //AKINATOR_MYSTR_H
