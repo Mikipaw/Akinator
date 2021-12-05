@@ -3,4 +3,13 @@ project(Akinator)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Akinator mystr.cpp Akinator.cpp Interface.cpp main.cpp)
+set(SOURCE_FILES
+        main.cpp
+        src/Akinator.cpp
+        src/Interface.cpp
+        src/mystr.cpp
+        )
+
+add_executable(Akinator ${SOURCE_FILES})
+
+target_include_directories(Akinator PUBLIC headers)

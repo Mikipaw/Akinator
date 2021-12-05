@@ -11,6 +11,6 @@
  *  @copyright GNU Public License.
  */
 
-#include "Interface.h"
+#include "src/Interface.h"
 
 int main() { return Interface(); }
