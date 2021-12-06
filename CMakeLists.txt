@@ -13,3 +13,4 @@ set(SOURCE_FILES
 add_executable(Akinator ${SOURCE_FILES})
 
 target_include_directories(Akinator PUBLIC headers)
+target_include_directories(Akinator PUBLIC src)

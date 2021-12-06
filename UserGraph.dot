@@ -1,0 +1,56 @@
+digraph G{
+edge [color = "darkgreen"];
+rankdir = "LR";
+node [shape = Mcircle];
+node [color = "#000000", shape = Mcircle];
+node0x561e26543400[ style = "filled, rounded", fillcolor = "gold"]node0x561e26543400 [label="	doing math
+"];
+node0x561e26544700[ style = "filled, rounded", fillcolor = "gold"]node0x561e26544700 [label="	playing chess
+"];
+node0x561e26544760[ style = "filled, rounded", fillcolor = "gold"]node0x561e26544760 [label="	owner
+"];
+node0x561e265447c0[ style = "filled, rounded", fillcolor = "lime"]node0x561e265447c0 [label="Michael
+"];
+node0x561e26544820[ style = "filled, rounded", fillcolor = "lime"]node0x561e26544820 [label="Dima
+"];
+node0x561e26544880[ style = "filled, rounded", fillcolor = "gold"]node0x561e26544880 [label="	Mezhnar
+"];
+node0x561e265448e0[ style = "filled, rounded", fillcolor = "lime"]node0x561e265448e0 [label="Den
+"];
+node0x561e26544940[ style = "filled, rounded", fillcolor = "gold"]node0x561e26544940 [label="	boy
+"];
+node0x561e265449a0[ style = "filled, rounded", fillcolor = "gold"]node0x561e265449a0 [label="	footballer
+"];
+node0x561e26544a00[ style = "filled, rounded", fillcolor = "lime"]node0x561e26544a00 [label="AlexSzen
+"];
+node0x561e26544a60[ style = "filled, rounded", fillcolor = "lime"]node0x561e26544a60 [label="Danila
+"];
+node0x561e26544ac0[ style = "filled, rounded", fillcolor = "lime"]node0x561e26544ac0 [label="Nadya
+"];
+node0x561e26544b20[ style = "filled, rounded", fillcolor = "gold"]node0x561e26544b20 [label="	playing cards
+"];
+node0x561e26544b80[ style = "filled, rounded", fillcolor = "lime"]node0x561e26544b80 [label="Semion
+"];
+node0x561e26544be0[ style = "filled, rounded", fillcolor = "gold"]node0x561e26544be0 [label="	Tatarin
+"];
+node0x561e26544c40[ style = "filled, rounded", fillcolor = "lime"]node0x561e26544c40 [label="Askar
+"];
+node0x561e26544ca0[ style = "filled, rounded", fillcolor = "lime"]node0x561e26544ca0 [label="Oleg
+"];
+node0x561e26543400 -> node0x561e26544b20 [label="false"];
+node0x561e26544b20 -> node0x561e26544be0 [label="false"];
+node0x561e26544be0 -> node0x561e26544ca0 [label="false"];
+node0x561e26544be0 -> node0x561e26544c40 [label="true"];
+node0x561e26544b20 -> node0x561e26544b80 [label="true"];
+node0x561e26543400 -> node0x561e26544700 [label="true"];
+node0x561e26544700 -> node0x561e26544880 [label="false"];
+node0x561e26544880 -> node0x561e26544940 [label="false"];
+node0x561e26544940 -> node0x561e26544ac0 [label="false"];
+node0x561e26544940 -> node0x561e265449a0 [label="true"];
+node0x561e265449a0 -> node0x561e26544a60 [label="false"];
+node0x561e265449a0 -> node0x561e26544a00 [label="true"];
+node0x561e26544880 -> node0x561e265448e0 [label="true"];
+node0x561e26544700 -> node0x561e26544760 [label="true"];
+node0x561e26544760 -> node0x561e26544820 [label="false"];
+node0x561e26544760 -> node0x561e265447c0 [label="true"];
+}
