@@ -7,7 +7,7 @@
 * espeak installed
 * geography knowledge
 
-####To install espeak:
+#### To install espeak:
     sudo apt install espeak
 
-###Coming soon...
+### Coming soon...
