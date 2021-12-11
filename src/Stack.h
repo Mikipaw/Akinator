@@ -456,6 +456,7 @@ inline void Stack::clear() {
 }
 
 inline int str_cmp (const char* str1, const char* str2) {
+    if (str1 == nullptr || str2 == nullptr) return 0;
     int i = 0, j = 0;
     while(true){
         while(!(isalpha(str1[i]) || str1[i] == '\0')) i++;

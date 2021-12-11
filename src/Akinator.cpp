@@ -146,6 +146,7 @@ int Akinator::Add_new_object (Node* node) {
     if (!getline(&temp_str, &_size, stdin)) return INVALID_ANSWER;
     length = strlen(node->data.string);
     node->data.string[length - 1] = '\n';
+    node->data.string[0] = '\t';
     node->question = true;
 
     speak("Thank you for game! See you later!\n");
@@ -534,7 +535,7 @@ int Akinator::Compare(const char* lhs, const char* rhs) {
     def_lhs.copy(definition(lhs));
     def_rhs.copy(definition(rhs));
 
-    if (def_lhs.Get_Size() == 0 || def_rhs.Get_Size() == 0) return INVALID_OBJECT;
+    if (def_lhs.at(0).string == nullptr || def_rhs.at(0).string == nullptr) return INVALID_OBJECT;
 
     Stack result(16);
     simple_string str;
@@ -551,8 +552,6 @@ int Akinator::Compare(const char* lhs, const char* rhs) {
         strcat(speech, word);
     }
     if (number_of_words == 0) strcat(speech, "None\n");
-
-    size_t lenstr = strlen(speech);
 
     speak("Similarities:\n");
     speak(speech);
