@@ -126,7 +126,7 @@ int Akinator::Add_new_object (Node* node) {
 
     speak("I'm so sorry, I don't know what did you conceive.\n Let me know, what object are you talking about?\n");
 
-    size_t _size = LIMITED_SIZE_OF_STRING;
+    size_t _size = LIMITED_SIZE_OF_STRING * 2;
     char* new_object = new char[LIMITED_SIZE_OF_STRING];
     getline(&freebuf, &_size, stdin);
     if (!getline(&new_object, &_size, stdin)) return INVALID_ANSWER;
@@ -139,9 +139,10 @@ int Akinator::Add_new_object (Node* node) {
     node->right = new Node;
     node->right->data = node->data;
 
-    node->data.string = new char[LIMITED_SIZE_OF_STRING];
+    node->data.string = new char[LIMITED_SIZE_OF_STRING * 2];
     char* temp_str = node->data.string;
     temp_str++;
+
     speak("Which fact does distinguish your object?\n");
     if (!getline(&temp_str, &_size, stdin)) return INVALID_ANSWER;
     length = strlen(node->data.string);
@@ -187,15 +188,16 @@ Node* Akinator::erase_(T item, Node* node) {
 }
 
 void Akinator::destroy_tree() {
-    f_round_str = (char*) calloc(size + 5, sizeof(LIMITED_SIZE_OF_STRING));
+    f_round_str = (char*) calloc(size + 5, 2 * LIMITED_SIZE_OF_STRING);
     assert(f_round_str != nullptr);
 
-    f_round_(root);
+    size_t lenstr = (size + 5) * 2 * LIMITED_SIZE_OF_STRING;
 
+    f_round_(root);
+    f_round_str[lenstr - 1] = '\0';
 
     FILE* output = fopen("database.txt", "wb");
     fputs(f_round_str, output);
-
     fclose(output);
     destroy_tree_(root);
 }

@@ -73,7 +73,10 @@ public:
     explicit Akinator(const char* input);
 
     //!Classical destructor
-    ~Akinator() { destroy_tree(); }
+    ~Akinator() {
+        destroy_tree();
+        free(f_round_str);
+    }
 
     /*!
      * @method search(T item)

@@ -3,60 +3,132 @@ edge [color = "darkgreen"];
 rankdir = "LR";
 node [shape = Mcircle];
 node [color = "#000000", shape = Mcircle];
-node0x55fd6b090400[ style = "filled, rounded", fillcolor = "gold"]node0x55fd6b090400 [label="	doing math
+node0x55f44db16400[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db16400 [label="	located in Eurasia
 "];
-node0x55fd6b091720[ style = "filled, rounded", fillcolor = "gold"]node0x55fd6b091720 [label="	playing chess
+node0x55f44db179c0[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db179c0 [label="	located on the island
 "];
-node0x55fd6b091780[ style = "filled, rounded", fillcolor = "gold"]node0x55fd6b091780 [label="	owner
+node0x55f44db17a20[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db17a20 [label="	located in the Middeterrenian
 "];
-node0x55fd6b0917e0[ style = "filled, rounded", fillcolor = "lime"]node0x55fd6b0917e0 [label="Michael
+node0x55f44db17a80[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db17a80 [label="	divided on the North and South
 "];
-node0x55fd6b091840[ style = "filled, rounded", fillcolor = "lime"]node0x55fd6b091840 [label="Dima
+node0x55f44db17ae0[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db17ae0 [label="Cyprus
 "];
-node0x55fd6b0918a0[ style = "filled, rounded", fillcolor = "gold"]node0x55fd6b0918a0 [label="	Mezhnar
+node0x55f44db17b40[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db17b40 [label="Malta
 "];
-node0x55fd6b091900[ style = "filled, rounded", fillcolor = "lime"]node0x55fd6b091900 [label="Den
+node0x55f44db17ba0[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db17ba0 [label="	have a volcanic past
 "];
-node0x55fd6b091960[ style = "filled, rounded", fillcolor = "gold"]node0x55fd6b091960 [label="	boy
+node0x55f44db17c00[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db17c00 [label="Iceland
 "];
-node0x55fd6b0919c0[ style = "filled, rounded", fillcolor = "gold"]node0x55fd6b0919c0 [label="	footballer
+node0x55f44db17c60[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db17c60 [label="	was the biggest empire in history
 "];
-node0x55fd6b091a20[ style = "filled, rounded", fillcolor = "lime"]node0x55fd6b091a20 [label="AlexSzen
+node0x55f44db17cc0[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db17cc0 [label="United kingdom
 "];
-node0x55fd6b091a80[ style = "filled, rounded", fillcolor = "lime"]node0x55fd6b091a80 [label="Danila
+node0x55f44db17d20[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db17d20 [label="	have a huge territorical claims on the mainland
 "];
-node0x55fd6b091ae0[ style = "filled, rounded", fillcolor = "gold"]node0x55fd6b091ae0 [label="	VERY AWFUL
+node0x55f44db17d80[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db17d80 [label="Taiwan
 "];
-node0x55fd6b091b40[ style = "filled, rounded", fillcolor = "lime"]node0x55fd6b091b40 [label="THE EVIL ZNAMKA
+node0x55f44db17de0[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db17de0 [label="	well known due to famous sort of tea
 "];
-node0x55fd6b091ba0[ style = "filled, rounded", fillcolor = "lime"]node0x55fd6b091ba0 [label="Nadya
+node0x55f44db17e40[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db17e40 [label="Sri Lanka
 "];
-node0x55fd6b091c00[ style = "filled, rounded", fillcolor = "gold"]node0x55fd6b091c00 [label="	playing cards
+node0x55f44db17ea0[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db17ea0 [label="	have a famous type of cartoons
 "];
-node0x55fd6b091c60[ style = "filled, rounded", fillcolor = "lime"]node0x55fd6b091c60 [label="Semion
+node0x55f44db17f00[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db17f00 [label="Japan
 "];
-node0x55fd6b091cc0[ style = "filled, rounded", fillcolor = "gold"]node0x55fd6b091cc0 [label="	Tatarin
+node0x55f44db17f60[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db17f60 [label="Ireland
 "];
-node0x55fd6b091d20[ style = "filled, rounded", fillcolor = "lime"]node0x55fd6b091d20 [label="Askar
+node0x55f44db17fc0[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db17fc0 [label="	located in Asia
 "];
-node0x55fd6b091d80[ style = "filled, rounded", fillcolor = "lime"]node0x55fd6b091d80 [label="Oleg
+node0x55f44db18020[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db18020 [label="	located in South Asia
 "];
-node0x55fd6b090400 -> node0x55fd6b091c00 [label="false"];
-node0x55fd6b091c00 -> node0x55fd6b091cc0 [label="false"];
-node0x55fd6b091cc0 -> node0x55fd6b091d80 [label="false"];
-node0x55fd6b091cc0 -> node0x55fd6b091d20 [label="true"];
-node0x55fd6b091c00 -> node0x55fd6b091c60 [label="true"];
-node0x55fd6b090400 -> node0x55fd6b091720 [label="true"];
-node0x55fd6b091720 -> node0x55fd6b0918a0 [label="false"];
-node0x55fd6b0918a0 -> node0x55fd6b091960 [label="false"];
-node0x55fd6b091960 -> node0x55fd6b091ae0 [label="false"];
-node0x55fd6b091ae0 -> node0x55fd6b091ba0 [label="false"];
-node0x55fd6b091ae0 -> node0x55fd6b091b40 [label="true"];
-node0x55fd6b091960 -> node0x55fd6b0919c0 [label="true"];
-node0x55fd6b0919c0 -> node0x55fd6b091a80 [label="false"];
-node0x55fd6b0919c0 -> node0x55fd6b091a20 [label="true"];
-node0x55fd6b0918a0 -> node0x55fd6b091900 [label="true"];
-node0x55fd6b091720 -> node0x55fd6b091780 [label="true"];
-node0x55fd6b091780 -> node0x55fd6b091840 [label="false"];
-node0x55fd6b091780 -> node0x55fd6b0917e0 [label="true"];
+node0x55f44db18080[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db18080 [label="	were the part of Pakistan until 1971
+"];
+node0x55f44db180e0[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db180e0 [label="Bangladesh
+"];
+node0x55f44db18140[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db18140 [label="India
+"];
+node0x55f44db181a0[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db181a0 [label="	located in West Asia
+"];
+node0x55f44db18200[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db18200 [label="	located on the Arabian Peninsula
+"];
+node0x55f44db18260[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db18260 [label="	world leader in oil export
+"];
+node0x55f44db182c0[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db182c0 [label="Saudi Arabia
+"];
+node0x55f44db18320[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db18320 [label="Oman
+"];
+node0x55f44db18380[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db18380 [label="Israel
+"];
+node0x55f44db183e0[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db183e0 [label="Mongolia
+"];
+node0x55f44db18440[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db18440 [label="Montenegro
+"];
+node0x55f44db184a0[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db184a0 [label="	located in Africa
+"];
+node0x55f44db18500[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db18500 [label="Sudan
+"];
+node0x55f44db18560[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db18560 [label="	located in America
+"];
+node0x55f44db185c0[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db185c0 [label="	located in South America
+"];
+node0x55f44db18620[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db18620 [label="Ecuador
+"];
+node0x55f44db18680[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db18680 [label="Costa-Rica
+"];
+node0x55f44db186e0[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db186e0 [label="	was the place for film The Lord of the rings
+"];
+node0x55f44db18740[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db18740 [label="New Zeland
+"];
+node0x55f44db187a0[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db187a0 [label="	continent and country at once
+"];
+node0x55f44db18800[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db18800 [label="Australia
+"];
+node0x55f44db18860[ style = "filled, rounded", fillcolor = "gold"]node0x55f44db18860 [label="	was the Spanish (and USA) colony
+"];
+node0x55f44db188c0[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db188c0 [label="Philippines
+"];
+node0x55f44db18920[ style = "filled, rounded", fillcolor = "lime"]node0x55f44db18920 [label="Papua New Guinea
+"];
+node0x55f44db16400 -> node0x55f44db184a0 [label="false"];
+node0x55f44db184a0 -> node0x55f44db18560 [label="false"];
+node0x55f44db18560 -> node0x55f44db186e0 [label="false"];
+node0x55f44db186e0 -> node0x55f44db187a0 [label="false"];
+node0x55f44db187a0 -> node0x55f44db18860 [label="false"];
+node0x55f44db18860 -> node0x55f44db18920 [label="false"];
+node0x55f44db18860 -> node0x55f44db188c0 [label="true"];
+node0x55f44db187a0 -> node0x55f44db18800 [label="true"];
+node0x55f44db186e0 -> node0x55f44db18740 [label="true"];
+node0x55f44db18560 -> node0x55f44db185c0 [label="true"];
+node0x55f44db185c0 -> node0x55f44db18680 [label="false"];
+node0x55f44db185c0 -> node0x55f44db18620 [label="true"];
+node0x55f44db184a0 -> node0x55f44db18500 [label="true"];
+node0x55f44db16400 -> node0x55f44db179c0 [label="true"];
+node0x55f44db179c0 -> node0x55f44db17fc0 [label="false"];
+node0x55f44db17fc0 -> node0x55f44db18440 [label="false"];
+node0x55f44db17fc0 -> node0x55f44db18020 [label="true"];
+node0x55f44db18020 -> node0x55f44db181a0 [label="false"];
+node0x55f44db181a0 -> node0x55f44db183e0 [label="false"];
+node0x55f44db181a0 -> node0x55f44db18200 [label="true"];
+node0x55f44db18200 -> node0x55f44db18380 [label="false"];
+node0x55f44db18200 -> node0x55f44db18260 [label="true"];
+node0x55f44db18260 -> node0x55f44db18320 [label="false"];
+node0x55f44db18260 -> node0x55f44db182c0 [label="true"];
+node0x55f44db18020 -> node0x55f44db18080 [label="true"];
+node0x55f44db18080 -> node0x55f44db18140 [label="false"];
+node0x55f44db18080 -> node0x55f44db180e0 [label="true"];
+node0x55f44db179c0 -> node0x55f44db17a20 [label="true"];
+node0x55f44db17a20 -> node0x55f44db17ba0 [label="false"];
+node0x55f44db17ba0 -> node0x55f44db17c60 [label="false"];
+node0x55f44db17c60 -> node0x55f44db17d20 [label="false"];
+node0x55f44db17d20 -> node0x55f44db17de0 [label="false"];
+node0x55f44db17de0 -> node0x55f44db17ea0 [label="false"];
+node0x55f44db17ea0 -> node0x55f44db17f60 [label="false"];
+node0x55f44db17ea0 -> node0x55f44db17f00 [label="true"];
+node0x55f44db17de0 -> node0x55f44db17e40 [label="true"];
+node0x55f44db17d20 -> node0x55f44db17d80 [label="true"];
+node0x55f44db17c60 -> node0x55f44db17cc0 [label="true"];
+node0x55f44db17ba0 -> node0x55f44db17c00 [label="true"];
+node0x55f44db17a20 -> node0x55f44db17a80 [label="true"];
+node0x55f44db17a80 -> node0x55f44db17b40 [label="false"];
+node0x55f44db17a80 -> node0x55f44db17ae0 [label="true"];
 }
