@@ -90,7 +90,7 @@ int Intro(const char* name) {
     printf("%s\n", speech + ESPEAK_SIZE);
 
     replace_spaces(speech);
-    system(speech);
+    //system(speech);
 
     return ALL_OK;
 }

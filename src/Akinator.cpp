@@ -427,7 +427,7 @@ int speak(const char* string) {
     strcat(speech, string);
     replace_spaces(speech);
 
-    system(speech);
+    //system(speech);
 
     free(speech);
 
