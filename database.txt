@@ -83,7 +83,49 @@ Tanzania.
 ?still in civil war.
 Somalia.
 Kenya.
+?located in Central Africa.
+?has access to sea.
+?was part of France in the past.
+?in British commonwealth.
+Cameroon.
+?has a country with same name.
+Congo.
+Gabon.
+?has the highest GDP per capita in Africa.
+Equatorial Guinea.
+DR Congo.
+?has part of the Sahara desert.
+Chad.
+CAR.
+?has access to sea.
+?was part of France in the past.
+?located in desert.
+?specializes in ferrous metallurgy.
+Mauritania.
+Senegal.
+?has the most aluminium resources.
+Guinea.
+?was the part of German empire.
+Togo.
+?is the mainland for Didier Drogba.
+Ivory Coast.
+Benin.
+?was part of UK in the past.
+?has a good football team.
+?the most populous in Africa.
 Nigeria.
+Ghana.
+?surrounded by one country except for coast.
+Gambia.
+Sierra Leone.
+?first independent republic in Africa.
+Liberia.
+Guinea Bissau.
+?has part of the Sahara desert.
+?has a river with same name.
+Niger.
+Mali.
+Burkina Faso.
 ?located in America.
 ?located in South America.
 ?located in Ands.
