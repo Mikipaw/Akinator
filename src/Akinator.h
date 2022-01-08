@@ -13,9 +13,9 @@
 typedef simple_string T;
 
 inline const char* OUTPUT_FILE_NAME = "Dump_file0.jpg";
-inline const char* DATABASE_TREE    = "Database_tree.jpg";
+inline const char* DATABASE_TREE    = "Database_tree.svg";
 inline const char* DOT              = R"(dot Graph.dot -Tjpg -o )";
-inline const char* UDOT             = R"(dot UserGraph.dot -Tjpg -o )";
+inline const char* UDOT             = R"(dot UserGraph.dot -Tsvg -o )";
 
 
 inline const char* GOLD = "gold";

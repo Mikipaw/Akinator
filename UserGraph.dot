@@ -3,600 +3,714 @@ edge [color = "darkgreen"];
 rankdir = "LR";
 node [shape = Mcircle];
 node [color = "#000000", shape = Mcircle];
-node0x562afd119400[ style = "filled, rounded", fillcolor = "gold"]node0x562afd119400 [label="	located in Eurasia
+node0x563d297e5400[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e5400 [label="	located in Eurasia
 "];
-node0x562afd11b620[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11b620 [label="	located on the island
+node0x563d297e78d0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e78d0 [label="	located on the island
 "];
-node0x562afd11b680[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11b680 [label="	located in the Middeterrenian
+node0x563d297e7930[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e7930 [label="	located in the Mediterranean
 "];
-node0x562afd11b6e0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11b6e0 [label="	divided on the North and South
+node0x563d297e7990[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e7990 [label="	divided on the North and South
 "];
-node0x562afd11b740[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11b740 [label="Cyprus
+node0x563d297e79f0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e79f0 [label="Cyprus
 "];
-node0x562afd11b7a0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11b7a0 [label="Malta
+node0x563d297e7a50[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e7a50 [label="Malta
 "];
-node0x562afd11b800[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11b800 [label="	have a volcanic past
+node0x563d297e7ab0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e7ab0 [label="	have a volcanic origin
 "];
-node0x562afd11b860[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11b860 [label="Iceland
+node0x563d297e7b10[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e7b10 [label="Iceland
 "];
-node0x562afd11b8c0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11b8c0 [label="	was the biggest empire in history
+node0x563d297e7b70[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e7b70 [label="	was the biggest empire in history
 "];
-node0x562afd11b920[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11b920 [label="United kingdom
+node0x563d297e7bd0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e7bd0 [label="United Kingdom
 "];
-node0x562afd11b980[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11b980 [label="	have a huge territorical claims on the mainland
+node0x563d297e7c30[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e7c30 [label="	have a huge territorial claims on the mainland
 "];
-node0x562afd11b9e0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11b9e0 [label="Taiwan
+node0x563d297e7c90[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e7c90 [label="Taiwan
 "];
-node0x562afd11ba40[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11ba40 [label="	well known due to famous sort of tea
+node0x563d297e7cf0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e7cf0 [label="	well known due to famous sort of tea
 "];
-node0x562afd11baa0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11baa0 [label="Sri Lanka
+node0x563d297e7d50[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e7d50 [label="Sri Lanka
 "];
-node0x562afd11bb00[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11bb00 [label="	have a famous type of cartoons
+node0x563d297e7db0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e7db0 [label="	have a famous type of cartoons
 "];
-node0x562afd11bb60[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11bb60 [label="Japan
+node0x563d297e7e10[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e7e10 [label="Japan
 "];
-node0x562afd11bbc0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11bbc0 [label="Ireland
+node0x563d297e7e70[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e7e70 [label="Ireland
 "];
-node0x562afd11bc20[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11bc20 [label="	located in Asia
+node0x563d297e7ed0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e7ed0 [label="	located in Asia
 "];
-node0x562afd11bc80[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11bc80 [label="	located in South Asia
+node0x563d297e7f30[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e7f30 [label="	located in South West Asia
 "];
-node0x562afd11bce0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11bce0 [label="	were the part of Pakistan until 1971
+node0x563d297e7f90[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e7f90 [label="	located on Arabian peninsula
 "];
-node0x562afd11bd40[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11bd40 [label="Bangladesh
+node0x563d297e7ff0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e7ff0 [label="	have access to Persian Gulf
 "];
-node0x562afd11bda0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11bda0 [label="India
+node0x563d297e8050[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e8050 [label="	the absolute monarchy
 "];
-node0x562afd11be00[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11be00 [label="	located in West Asia
+node0x563d297e80b0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e80b0 [label="	have borders with more than one country
 "];
-node0x562afd11be60[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11be60 [label="	located on the Arabian Peninsula
+node0x563d297e8110[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e8110 [label="	have the highest percentage of migrants
 "];
-node0x562afd11bec0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11bec0 [label="	world leader in oil export
+node0x563d297e8170[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e8170 [label="UAE
 "];
-node0x562afd11bf20[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11bf20 [label="Saudi Arabia
+node0x563d297e81d0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e81d0 [label="Oman
 "];
-node0x562afd11bf80[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11bf80 [label="Oman
+node0x563d297e8230[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e8230 [label="	an organizer of football world cup 2022
 "];
-node0x562afd11bfe0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11bfe0 [label="Israel
+node0x563d297e8290[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e8290 [label="Qatar
 "];
-node0x562afd11c040[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11c040 [label="Mongolia
+node0x563d297e82f0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e82f0 [label="Bahrain
 "];
-node0x562afd11c0a0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11c0a0 [label="Montenegro
+node0x563d297e8350[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e8350 [label="	has access to Red sea
 "];
-node0x562afd11c100[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11c100 [label="	located in Africa
+node0x563d297e83b0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e83b0 [label="	the biggest on peninsula
 "];
-node0x562afd11c160[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11c160 [label="	has an access to the Mediterranian
+node0x563d297e8410[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e8410 [label="Saudi Arabia
 "];
-node0x562afd11c1c0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11c1c0 [label="	the oldest country in the world
+node0x563d297e8470[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e8470 [label="Yemen
 "];
-node0x562afd11c220[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11c220 [label="Egypt
+node0x563d297e84d0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e84d0 [label="Kuwait
 "];
-node0x562afd11c280[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11c280 [label="	has a border with Spain
+node0x563d297e8530[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e8530 [label="Yemen
 "];
-node0x562afd11c2e0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11c2e0 [label="Morocco
+node0x563d297e8590[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e8590 [label="	located on the Caucasus
 "];
-node0x562afd11c340[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11c340 [label="	the biggest country in Africa
+node0x563d297e85f0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e85f0 [label="	Christianity country
 "];
-node0x562afd11c3a0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11c3a0 [label="Algeria
+node0x563d297e8650[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e8650 [label="	landlocked
 "];
-node0x562afd11c400[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11c400 [label="	where were 2 civil wars between 2010 and 2020
+node0x563d297e86b0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e86b0 [label="Armenia
 "];
-node0x562afd11c460[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11c460 [label="Libya
+node0x563d297e8710[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e8710 [label="Georgia
 "];
-node0x562afd11c4c0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11c4c0 [label="Tunisia
+node0x563d297e8770[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e8770 [label="Azerbaijan
 "];
-node0x562afd11c520[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11c520 [label="	Located in South Africa
+node0x563d297e87d0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e87d0 [label="	has access to Mediterranean
 "];
-node0x562afd11c580[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11c580 [label="	the richest country in the region
+node0x563d297e8830[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e8830 [label="	was in France in the past
 "];
-node0x562afd11c5e0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11c5e0 [label="South Africa
+node0x563d297e8890[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e8890 [label="	has some kurds
 "];
-node0x562afd11c640[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11c640 [label="	was the part of South Africa
+node0x563d297e88f0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e88f0 [label="Syria
 "];
-node0x562afd11c6a0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11c6a0 [label="	Landlocked
+node0x563d297e8950[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e8950 [label="Lebanon
 "];
-node0x562afd11c700[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11c700 [label="	entirely surrounded by South Africa
+node0x563d297e89b0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e89b0 [label="	has a piece in Europe
 "];
-node0x562afd11c760[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11c760 [label="Lesotho
+node0x563d297e8a10[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e8a10 [label="Turkey
 "];
-node0x562afd11c7c0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11c7c0 [label="Swaziland
+node0x563d297e8a70[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e8a70 [label="Israel
 "];
-node0x562afd11c820[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11c820 [label="Namibia
+node0x563d297e8ad0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e8ad0 [label="	has access to the Persian gulf
 "];
-node0x562afd11c880[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11c880 [label="	was part of Portugal
+node0x563d297e8b30[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e8b30 [label="	has access to the Caspian sea
 "];
-node0x562afd11c8e0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11c8e0 [label="	has access to the Indian ocean
+node0x563d297e8b90[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e8b90 [label="Iran
 "];
-node0x562afd11c940[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11c940 [label="Mozambique
+node0x563d297e8bf0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e8bf0 [label="Iraq
 "];
-node0x562afd11c9a0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11c9a0 [label="Angola
+node0x563d297e8c50[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e8c50 [label="	landlocked
 "];
-node0x562afd11ca00[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11ca00 [label="	has a part of Zambezi river
+node0x563d297e8cb0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e8cb0 [label="Afghanistan
 "];
-node0x562afd11ca60[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11ca60 [label="	has access to the Victoria Falls
+node0x563d297e8d10[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e8d10 [label="Jordan
 "];
-node0x562afd11cac0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11cac0 [label="	has English only as a country language
+node0x563d297e8d70[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e8d70 [label="	located in South Asia
 "];
-node0x562afd11cb20[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11cb20 [label="Zambia
+node0x563d297e8dd0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e8dd0 [label="	was the part of Pakistan until 1971
 "];
-node0x562afd11cb80[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11cb80 [label="Zimbabwe
+node0x563d297e8e30[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e8e30 [label="Bangladesh
 "];
-node0x562afd11cbe0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11cbe0 [label="Malawi
+node0x563d297e8e90[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e8e90 [label="India
 "];
-node0x562afd11cc40[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11cc40 [label="	an island
+node0x563d297e8ef0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e8ef0 [label="	located in West Asia
 "];
-node0x562afd11cca0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11cca0 [label="Madagaskar
+node0x563d297e8f50[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e8f50 [label="	located on the Arabian Peninsula
 "];
-node0x562afd11cd00[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11cd00 [label="Botswana
+node0x563d297e8fb0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e8fb0 [label="	world leader in oil export
 "];
-node0x562afd11cd60[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11cd60 [label="	located in East Africa
+node0x563d297e9010[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e9010 [label="Saudi Arabia
 "];
-node0x562afd11cdc0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11cdc0 [label="	landlocked
+node0x563d297e9070[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e9070 [label="Oman
 "];
-node0x562afd11ce20[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11ce20 [label="	was part of Belgium
+node0x563d297e90d0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e90d0 [label="Israel
 "];
-node0x562afd11ce80[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11ce80 [label="	where was a genocide in 1994
+node0x563d297e9130[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e9130 [label="Mongolia
 "];
-node0x562afd11cee0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11cee0 [label="Rwanda
+node0x563d297e9190[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e9190 [label="Montenegro
 "];
-node0x562afd11cf40[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11cf40 [label="Burundi
+node0x563d297e91f0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e91f0 [label="	located in Africa
 "];
-node0x562afd11cfa0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11cfa0 [label="	had 2 wars with Italy
+node0x563d297e9250[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e9250 [label="	has access to the Mediterranean
 "];
-node0x562afd11d000[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11d000 [label="Ethiopia
+node0x563d297e92b0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e92b0 [label="	the oldest country in the world
 "];
-node0x562afd11d060[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11d060 [label="	got independence in 21 century
+node0x563d297e9310[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e9310 [label="Egypt
 "];
-node0x562afd11d0c0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11d0c0 [label="South Sudan
+node0x563d297e9370[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e9370 [label="	has a border with Spain
 "];
-node0x562afd11d120[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11d120 [label="Uganda
+node0x563d297e93d0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e93d0 [label="Morocco
 "];
-node0x562afd11d180[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11d180 [label="	has access to Red sea
+node0x563d297e9430[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e9430 [label="	the biggest country in Africa
 "];
-node0x562afd11d1e0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11d1e0 [label="	was the biggest country in Africa in the past
+node0x563d297e9490[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e9490 [label="Algeria
 "];
-node0x562afd11d240[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11d240 [label="Sudan
+node0x563d297e94f0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e94f0 [label="	where were 2 civil wars between 2010 and 2020
 "];
-node0x562afd11d2a0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11d2a0 [label="	was part of Italy
+node0x563d297e9550[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e9550 [label="Libya
 "];
-node0x562afd11d300[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11d300 [label="Eritrea
+node0x563d297e95b0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e95b0 [label="Tunisia
 "];
-node0x562afd11d360[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11d360 [label="Djibouti
+node0x563d297e9610[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e9610 [label="	Located in South Africa
 "];
-node0x562afd11d3c0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11d3c0 [label="	was part of Germany
+node0x563d297e9670[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e9670 [label="	the richest country in the region
 "];
-node0x562afd11d420[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11d420 [label="Tanzania
+node0x563d297e96d0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e96d0 [label="South Africa
 "];
-node0x562afd11d480[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11d480 [label="	still in civil war
+node0x563d297e9730[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e9730 [label="	was the part of South Africa
 "];
-node0x562afd11d4e0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11d4e0 [label="Somalia
+node0x563d297e9790[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e9790 [label="	Landlocked
 "];
-node0x562afd11d540[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11d540 [label="Kenya
+node0x563d297e97f0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e97f0 [label="	entirely surrounded by South Africa
 "];
-node0x562afd11d5a0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11d5a0 [label="	located in Central Africa
+node0x563d297e9850[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e9850 [label="Lesotho
 "];
-node0x562afd11d600[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11d600 [label="	has access to sea
+node0x563d297e98b0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e98b0 [label="Swaziland
 "];
-node0x562afd11d660[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11d660 [label="	was part of France in the past
+node0x563d297e9910[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e9910 [label="Namibia
 "];
-node0x562afd11d6c0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11d6c0 [label="	in British commonwealth
+node0x563d297e9970[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e9970 [label="	was part of Portugal
 "];
-node0x562afd11d720[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11d720 [label="Cameroon
+node0x563d297e99d0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e99d0 [label="	has access to the Indian ocean
 "];
-node0x562afd11d780[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11d780 [label="	has a country with same name
+node0x563d297e9a30[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e9a30 [label="Mozambique
 "];
-node0x562afd11d7e0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11d7e0 [label="Congo
+node0x563d297e9a90[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e9a90 [label="Angola
 "];
-node0x562afd11d840[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11d840 [label="Gabon
+node0x563d297e9af0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e9af0 [label="	has a part of Zambezi river
 "];
-node0x562afd11d8a0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11d8a0 [label="	has the highest GDP per capita in Africa
+node0x563d297e9b50[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e9b50 [label="	has access to the Victoria Falls
 "];
-node0x562afd11d900[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11d900 [label="Equatorial Guinea
+node0x563d297e9bb0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e9bb0 [label="	has English only as a country language
 "];
-node0x562afd11d960[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11d960 [label="DR Congo
+node0x563d297e9c10[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e9c10 [label="Zambia
 "];
-node0x562afd11d9c0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11d9c0 [label="	has part of the Sahara desert
+node0x563d297e9c70[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e9c70 [label="Zimbabwe
 "];
-node0x562afd11da20[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11da20 [label="Chad
+node0x563d297e9cd0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e9cd0 [label="Malawi
 "];
-node0x562afd11da80[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11da80 [label="CAR
+node0x563d297e9d30[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e9d30 [label="	an island
 "];
-node0x562afd11dae0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11dae0 [label="	has access to sea
+node0x563d297e9d90[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e9d90 [label="Madagaskar
 "];
-node0x562afd11db40[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11db40 [label="	was part of France in the past
+node0x563d297e9df0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e9df0 [label="Botswana
 "];
-node0x562afd11dba0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11dba0 [label="	located in desert
+node0x563d297e9e50[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e9e50 [label="	located in East Africa
 "];
-node0x562afd11dc00[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11dc00 [label="	specializes in ferrous metallurgy
+node0x563d297e9eb0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e9eb0 [label="	landlocked
 "];
-node0x562afd11dc60[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11dc60 [label="Mauritania
+node0x563d297e9f10[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e9f10 [label="	was part of Belgium
 "];
-node0x562afd11dcc0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11dcc0 [label="Senegal
+node0x563d297e9f70[ style = "filled, rounded", fillcolor = "gold"]node0x563d297e9f70 [label="	where was a genocide in 1994
 "];
-node0x562afd11dd20[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11dd20 [label="	has the most aluminium resources
+node0x563d297e9fd0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297e9fd0 [label="Rwanda
 "];
-node0x562afd11dd80[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11dd80 [label="Guinea
+node0x563d297ea030[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ea030 [label="Burundi
 "];
-node0x562afd11dde0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11dde0 [label="	was the part of German empire
+node0x563d297ea090[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ea090 [label="	had 2 wars with Italy
 "];
-node0x562afd11de40[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11de40 [label="Togo
+node0x563d297ea0f0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ea0f0 [label="Ethiopia
 "];
-node0x562afd11dea0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11dea0 [label="	is the mainland for Didier Drogba
+node0x563d297ea150[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ea150 [label="	got independence in 21 century
 "];
-node0x562afd11df00[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11df00 [label="Ivory Coast
+node0x563d297ea1b0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ea1b0 [label="South Sudan
 "];
-node0x562afd11df60[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11df60 [label="Benin
+node0x563d297ea210[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ea210 [label="Uganda
 "];
-node0x562afd11dfc0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11dfc0 [label="	was part of UK in the past
+node0x563d297ea270[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ea270 [label="	has access to Red sea
 "];
-node0x562afd11e020[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11e020 [label="	has a good football team
+node0x563d297ea2d0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ea2d0 [label="	was the biggest country in Africa in the past
 "];
-node0x562afd11e080[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11e080 [label="	the most populous in Africa
+node0x563d297ea330[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ea330 [label="Sudan
 "];
-node0x562afd11e0e0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11e0e0 [label="Nigeria
+node0x563d297ea390[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ea390 [label="	was part of Italy
 "];
-node0x562afd11e140[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11e140 [label="Ghana
+node0x563d297ea3f0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ea3f0 [label="Eritrea
 "];
-node0x562afd11e1a0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11e1a0 [label="	surrounded by one country except for coast
+node0x563d297ea450[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ea450 [label="Djibouti
 "];
-node0x562afd11e200[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11e200 [label="Gambia
+node0x563d297ea4b0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ea4b0 [label="	was part of Germany
 "];
-node0x562afd11e260[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11e260 [label="Sierra Leone
+node0x563d297ea510[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ea510 [label="Tanzania
 "];
-node0x562afd11e2c0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11e2c0 [label="	first independent republic in Africa
+node0x563d297ea570[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ea570 [label="	still in civil war
 "];
-node0x562afd11e320[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11e320 [label="Liberia
+node0x563d297ea5d0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ea5d0 [label="Somalia
 "];
-node0x562afd11e380[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11e380 [label="Guinea Bissau
+node0x563d297ea630[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ea630 [label="Kenya
 "];
-node0x562afd11e3e0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11e3e0 [label="	has part of the Sahara desert
+node0x563d297ea690[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ea690 [label="	located in Central Africa
 "];
-node0x562afd11e440[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11e440 [label="	has a river with same name
+node0x563d297ea6f0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ea6f0 [label="	has access to sea
 "];
-node0x562afd11e4a0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11e4a0 [label="Niger
+node0x563d297ea750[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ea750 [label="	was part of France in the past
 "];
-node0x562afd11e500[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11e500 [label="Mali
+node0x563d297ea7b0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ea7b0 [label="	in British commonwealth
 "];
-node0x562afd11e560[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11e560 [label="Burkina Faso
+node0x563d297ea810[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ea810 [label="Cameroon
 "];
-node0x562afd11e5c0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11e5c0 [label="	located in America
+node0x563d297ea870[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ea870 [label="	has a country with same name
 "];
-node0x562afd11e620[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11e620 [label="	located in South America
+node0x563d297ea8d0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ea8d0 [label="Congo
 "];
-node0x562afd11e680[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11e680 [label="	located in Ands
+node0x563d297ea930[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ea930 [label="Gabon
 "];
-node0x562afd11e6e0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11e6e0 [label="	has a lot of illegal drugs export
+node0x563d297ea990[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ea990 [label="	has the highest GDP per capita in Africa
 "];
-node0x562afd11e740[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11e740 [label="Columbia
+node0x563d297ea9f0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ea9f0 [label="Equatorial Guinea
 "];
-node0x562afd11e7a0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11e7a0 [label="	long and thin
+node0x563d297eaa50[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eaa50 [label="DR Congo
 "];
-node0x562afd11e800[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11e800 [label="Chili
+node0x563d297eaab0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eaab0 [label="	has part of the Sahara desert
 "];
-node0x562afd11e860[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11e860 [label="	landlocked
+node0x563d297eab10[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eab10 [label="Chad
 "];
-node0x562afd11e8c0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11e8c0 [label="Bolivia
+node0x563d297eab70[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eab70 [label="CAR
 "];
-node0x562afd11e920[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11e920 [label="	got name due to geographical position
+node0x563d297eabd0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eabd0 [label="	has access to sea
 "];
-node0x562afd11e980[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11e980 [label="Ecuador
+node0x563d297eac30[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eac30 [label="	was part of France in the past
 "];
-node0x562afd11e9e0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11e9e0 [label="Peru
+node0x563d297eac90[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eac90 [label="	located in desert
 "];
-node0x562afd11ea40[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11ea40 [label="	has a part in Amazonian jungle
+node0x563d297eacf0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eacf0 [label="	specializes in ferrous metallurgy
 "];
-node0x562afd11eaa0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11eaa0 [label="	has a lot of oil reserves
+node0x563d297ead50[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ead50 [label="Mauritania
 "];
-node0x562afd11eb00[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11eb00 [label="Venezuela
+node0x563d297eadb0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eadb0 [label="Senegal
 "];
-node0x562afd11eb60[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11eb60 [label="	was the British colony
+node0x563d297eae10[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eae10 [label="	has the most aluminium resources
 "];
-node0x562afd11ebc0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11ebc0 [label="Guyana
+node0x563d297eae70[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eae70 [label="Guinea
 "];
-node0x562afd11ec20[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11ec20 [label="	was the Dutch colony
+node0x563d297eaed0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eaed0 [label="	was the part of German empire
 "];
-node0x562afd11ec80[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11ec80 [label="Suriname
+node0x563d297eaf30[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eaf30 [label="Togo
 "];
-node0x562afd11ece0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11ece0 [label="Brazil
+node0x563d297eaf90[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eaf90 [label="	is the mainland for Didier Drogba
 "];
-node0x562afd11ed40[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11ed40 [label="	have the most European population in South America
+node0x563d297eaff0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eaff0 [label="Ivory Coast
 "];
-node0x562afd11eda0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11eda0 [label="Uruguay
+node0x563d297eb050[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eb050 [label="Benin
 "];
-node0x562afd11ee00[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11ee00 [label="	have a territorial gain with UK
+node0x563d297eb0b0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eb0b0 [label="	was part of UK in the past
 "];
-node0x562afd11ee60[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11ee60 [label="Argentina
+node0x563d297eb110[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eb110 [label="	has a good football team
 "];
-node0x562afd11eec0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11eec0 [label="Paraguay
+node0x563d297eb170[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eb170 [label="	the most populous in Africa
 "];
-node0x562afd11ef20[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11ef20 [label="	an island in Carribean sea
+node0x563d297eb1d0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eb1d0 [label="Nigeria
 "];
-node0x562afd11ef80[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11ef80 [label="	was included in British West Indies
+node0x563d297eb230[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eb230 [label="Ghana
 "];
-node0x562afd11efe0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11efe0 [label="	the native country for the fastest runner in the world
+node0x563d297eb290[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eb290 [label="	surrounded by one country except for coast
 "];
-node0x562afd11f040[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11f040 [label="Jamaica
+node0x563d297eb2f0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eb2f0 [label="Gambia
 "];
-node0x562afd11f0a0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11f0a0 [label="	rich country based on tourism
+node0x563d297eb350[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eb350 [label="Sierra Leone
 "];
-node0x562afd11f100[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11f100 [label="The Bahamas
+node0x563d297eb3b0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eb3b0 [label="	first independent republic in Africa
 "];
-node0x562afd11f160[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11f160 [label="Trinidad and Tobago
+node0x563d297eb410[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eb410 [label="Liberia
 "];
-node0x562afd11f1c0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11f1c0 [label="	located on Haiti island
+node0x563d297eb470[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eb470 [label="Guinea Bissau
 "];
-node0x562afd11f220[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11f220 [label="	more rich than neighbor
+node0x563d297eb4d0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eb4d0 [label="	has part of the Sahara desert
 "];
-node0x562afd11f280[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11f280 [label="Dominican republic
+node0x563d297eb530[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eb530 [label="	has a river with same name
 "];
-node0x562afd11f2e0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11f2e0 [label="Haiti
+node0x563d297eb590[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eb590 [label="Niger
 "];
-node0x562afd11f340[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11f340 [label="	known due to Caribbean crisis
+node0x563d297eb5f0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eb5f0 [label="Mali
 "];
-node0x562afd11f3a0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11f3a0 [label="Cuba
+node0x563d297eb650[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eb650 [label="Burkina Faso
 "];
-node0x562afd11f400[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11f400 [label="Curacao
+node0x563d297eb6b0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eb6b0 [label="	located in America
 "];
-node0x562afd11f460[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11f460 [label="	was the part of UK in the past
+node0x563d297eb710[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eb710 [label="	located in South America
 "];
-node0x562afd11f4c0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11f4c0 [label="	the best country in hockey
+node0x563d297eb770[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eb770 [label="	located in Ands
 "];
-node0x562afd11f520[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11f520 [label="Canada
+node0x563d297eb7d0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eb7d0 [label="	has a lot of illegal drugs export
 "];
-node0x562afd11f580[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11f580 [label="	the world superpower
+node0x563d297eb830[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eb830 [label="Columbia
 "];
-node0x562afd11f5e0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11f5e0 [label="USA
+node0x563d297eb890[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eb890 [label="	long and thin
 "];
-node0x562afd11f640[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11f640 [label="Belize
+node0x563d297eb8f0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eb8f0 [label="Chili
 "];
-node0x562afd11f6a0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11f6a0 [label="	has a famous canal
+node0x563d297eb950[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eb950 [label="	landlocked
 "];
-node0x562afd11f700[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11f700 [label="Panama
+node0x563d297eb9b0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eb9b0 [label="Bolivia
 "];
-node0x562afd11f760[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11f760 [label="	the best place for surfers
+node0x563d297eba10[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eba10 [label="	got name due to geographical position
 "];
-node0x562afd11f7c0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11f7c0 [label="Costa Rica
+node0x563d297eba70[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eba70 [label="Ecuador
 "];
-node0x562afd11f820[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11f820 [label="	the homeland of Burrito
+node0x563d297ebad0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ebad0 [label="Peru
 "];
-node0x562afd11f880[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11f880 [label="Mexico
+node0x563d297ebb30[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ebb30 [label="	has a part in Amazonian jungle
 "];
-node0x562afd11f8e0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11f8e0 [label="	was taken part in football war
+node0x563d297ebb90[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ebb90 [label="	has a lot of oil reserves
 "];
-node0x562afd11f940[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11f940 [label="	the smallest in Central America
+node0x563d297ebbf0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ebbf0 [label="Venezuela
 "];
-node0x562afd11f9a0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11f9a0 [label="Salvador
+node0x563d297ebc50[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ebc50 [label="	was the British colony
 "];
-node0x562afd11fa00[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11fa00 [label="Honduras
+node0x563d297ebcb0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ebcb0 [label="Guyana
 "];
-node0x562afd11fa60[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11fa60 [label="	the most populated in Central America
+node0x563d297ebd10[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ebd10 [label="	was the Dutch colony
 "];
-node0x562afd11fac0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11fac0 [label="Guatemala
+node0x563d297ebd70[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ebd70 [label="Suriname
 "];
-node0x562afd11fb20[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11fb20 [label="Nicaragua
+node0x563d297ebdd0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ebdd0 [label="Brazil
 "];
-node0x562afd11fb80[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11fb80 [label="	was the place for film The Lord of the rings
+node0x563d297ebe30[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ebe30 [label="	have the most European population in South America
 "];
-node0x562afd11fbe0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11fbe0 [label="New Zeland
+node0x563d297ebe90[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ebe90 [label="Uruguay
 "];
-node0x562afd11fc40[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11fc40 [label="	continent and country at once
+node0x563d297ebef0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ebef0 [label="	have a territorial gain with UK
 "];
-node0x562afd11fca0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11fca0 [label="Australia
+node0x563d297ebf50[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ebf50 [label="Argentina
 "];
-node0x562afd11fd00[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11fd00 [label="	was the Spanish and USA colony, was occupied by Japan in WW2
+node0x563d297ebfb0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ebfb0 [label="Paraguay
 "];
-node0x562afd11fd60[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11fd60 [label="Philippines
+node0x563d297ec010[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ec010 [label="	an island in Carribean sea
 "];
-node0x562afd11fdc0[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11fdc0 [label="	has an island with population more than Russian
+node0x563d297ec070[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ec070 [label="	was included in British West Indies
 "];
-node0x562afd11fe20[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11fe20 [label="Indonesia
+node0x563d297ec0d0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ec0d0 [label="	the native country for the fastest runner in the world
 "];
-node0x562afd11fe80[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11fe80 [label="	was the part of Portugal and Indonesia
+node0x563d297ec130[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ec130 [label="Jamaica
 "];
-node0x562afd11fee0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11fee0 [label="East Timor
+node0x563d297ec190[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ec190 [label="	rich country based on tourism
 "];
-node0x562afd11ff40[ style = "filled, rounded", fillcolor = "gold"]node0x562afd11ff40 [label="	small rich country on Borneo
+node0x563d297ec1f0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ec1f0 [label="The Bahamas
 "];
-node0x562afd11ffa0[ style = "filled, rounded", fillcolor = "lime"]node0x562afd11ffa0 [label="Brunei
+node0x563d297ec250[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ec250 [label="Trinidad and Tobago
 "];
-node0x562afd120000[ style = "filled, rounded", fillcolor = "lime"]node0x562afd120000 [label="Papua New Guinea
+node0x563d297ec2b0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ec2b0 [label="	located on Haiti island
 "];
-node0x562afd119400 -> node0x562afd11c100 [label="false"];
-node0x562afd11c100 -> node0x562afd11e5c0 [label="false"];
-node0x562afd11e5c0 -> node0x562afd11fb80 [label="false"];
-node0x562afd11fb80 -> node0x562afd11fc40 [label="false"];
-node0x562afd11fc40 -> node0x562afd11fd00 [label="false"];
-node0x562afd11fd00 -> node0x562afd11fdc0 [label="false"];
-node0x562afd11fdc0 -> node0x562afd11fe80 [label="false"];
-node0x562afd11fe80 -> node0x562afd11ff40 [label="false"];
-node0x562afd11ff40 -> node0x562afd120000 [label="false"];
-node0x562afd11ff40 -> node0x562afd11ffa0 [label="true"];
-node0x562afd11fe80 -> node0x562afd11fee0 [label="true"];
-node0x562afd11fdc0 -> node0x562afd11fe20 [label="true"];
-node0x562afd11fd00 -> node0x562afd11fd60 [label="true"];
-node0x562afd11fc40 -> node0x562afd11fca0 [label="true"];
-node0x562afd11fb80 -> node0x562afd11fbe0 [label="true"];
-node0x562afd11e5c0 -> node0x562afd11e620 [label="true"];
-node0x562afd11e620 -> node0x562afd11ef20 [label="false"];
-node0x562afd11ef20 -> node0x562afd11f460 [label="false"];
-node0x562afd11f460 -> node0x562afd11f6a0 [label="false"];
-node0x562afd11f6a0 -> node0x562afd11f760 [label="false"];
-node0x562afd11f760 -> node0x562afd11f820 [label="false"];
-node0x562afd11f820 -> node0x562afd11f8e0 [label="false"];
-node0x562afd11f8e0 -> node0x562afd11fa60 [label="false"];
-node0x562afd11fa60 -> node0x562afd11fb20 [label="false"];
-node0x562afd11fa60 -> node0x562afd11fac0 [label="true"];
-node0x562afd11f8e0 -> node0x562afd11f940 [label="true"];
-node0x562afd11f940 -> node0x562afd11fa00 [label="false"];
-node0x562afd11f940 -> node0x562afd11f9a0 [label="true"];
-node0x562afd11f820 -> node0x562afd11f880 [label="true"];
-node0x562afd11f760 -> node0x562afd11f7c0 [label="true"];
-node0x562afd11f6a0 -> node0x562afd11f700 [label="true"];
-node0x562afd11f460 -> node0x562afd11f4c0 [label="true"];
-node0x562afd11f4c0 -> node0x562afd11f580 [label="false"];
-node0x562afd11f580 -> node0x562afd11f640 [label="false"];
-node0x562afd11f580 -> node0x562afd11f5e0 [label="true"];
-node0x562afd11f4c0 -> node0x562afd11f520 [label="true"];
-node0x562afd11ef20 -> node0x562afd11ef80 [label="true"];
-node0x562afd11ef80 -> node0x562afd11f1c0 [label="false"];
-node0x562afd11f1c0 -> node0x562afd11f340 [label="false"];
-node0x562afd11f340 -> node0x562afd11f400 [label="false"];
-node0x562afd11f340 -> node0x562afd11f3a0 [label="true"];
-node0x562afd11f1c0 -> node0x562afd11f220 [label="true"];
-node0x562afd11f220 -> node0x562afd11f2e0 [label="false"];
-node0x562afd11f220 -> node0x562afd11f280 [label="true"];
-node0x562afd11ef80 -> node0x562afd11efe0 [label="true"];
-node0x562afd11efe0 -> node0x562afd11f0a0 [label="false"];
-node0x562afd11f0a0 -> node0x562afd11f160 [label="false"];
-node0x562afd11f0a0 -> node0x562afd11f100 [label="true"];
-node0x562afd11efe0 -> node0x562afd11f040 [label="true"];
-node0x562afd11e620 -> node0x562afd11e680 [label="true"];
-node0x562afd11e680 -> node0x562afd11ea40 [label="false"];
-node0x562afd11ea40 -> node0x562afd11ed40 [label="false"];
-node0x562afd11ed40 -> node0x562afd11ee00 [label="false"];
-node0x562afd11ee00 -> node0x562afd11eec0 [label="false"];
-node0x562afd11ee00 -> node0x562afd11ee60 [label="true"];
-node0x562afd11ed40 -> node0x562afd11eda0 [label="true"];
-node0x562afd11ea40 -> node0x562afd11eaa0 [label="true"];
-node0x562afd11eaa0 -> node0x562afd11eb60 [label="false"];
-node0x562afd11eb60 -> node0x562afd11ec20 [label="false"];
-node0x562afd11ec20 -> node0x562afd11ece0 [label="false"];
-node0x562afd11ec20 -> node0x562afd11ec80 [label="true"];
-node0x562afd11eb60 -> node0x562afd11ebc0 [label="true"];
-node0x562afd11eaa0 -> node0x562afd11eb00 [label="true"];
-node0x562afd11e680 -> node0x562afd11e6e0 [label="true"];
-node0x562afd11e6e0 -> node0x562afd11e7a0 [label="false"];
-node0x562afd11e7a0 -> node0x562afd11e860 [label="false"];
-node0x562afd11e860 -> node0x562afd11e920 [label="false"];
-node0x562afd11e920 -> node0x562afd11e9e0 [label="false"];
-node0x562afd11e920 -> node0x562afd11e980 [label="true"];
-node0x562afd11e860 -> node0x562afd11e8c0 [label="true"];
-node0x562afd11e7a0 -> node0x562afd11e800 [label="true"];
-node0x562afd11e6e0 -> node0x562afd11e740 [label="true"];
-node0x562afd11c100 -> node0x562afd11c160 [label="true"];
-node0x562afd11c160 -> node0x562afd11c520 [label="false"];
-node0x562afd11c520 -> node0x562afd11cd60 [label="false"];
-node0x562afd11cd60 -> node0x562afd11d5a0 [label="false"];
-node0x562afd11d5a0 -> node0x562afd11dae0 [label="false"];
-node0x562afd11dae0 -> node0x562afd11e3e0 [label="false"];
-node0x562afd11e3e0 -> node0x562afd11e560 [label="false"];
-node0x562afd11e3e0 -> node0x562afd11e440 [label="true"];
-node0x562afd11e440 -> node0x562afd11e500 [label="false"];
-node0x562afd11e440 -> node0x562afd11e4a0 [label="true"];
-node0x562afd11dae0 -> node0x562afd11db40 [label="true"];
-node0x562afd11db40 -> node0x562afd11dfc0 [label="false"];
-node0x562afd11dfc0 -> node0x562afd11e2c0 [label="false"];
-node0x562afd11e2c0 -> node0x562afd11e380 [label="false"];
-node0x562afd11e2c0 -> node0x562afd11e320 [label="true"];
-node0x562afd11dfc0 -> node0x562afd11e020 [label="true"];
-node0x562afd11e020 -> node0x562afd11e1a0 [label="false"];
-node0x562afd11e1a0 -> node0x562afd11e260 [label="false"];
-node0x562afd11e1a0 -> node0x562afd11e200 [label="true"];
-node0x562afd11e020 -> node0x562afd11e080 [label="true"];
-node0x562afd11e080 -> node0x562afd11e140 [label="false"];
-node0x562afd11e080 -> node0x562afd11e0e0 [label="true"];
-node0x562afd11db40 -> node0x562afd11dba0 [label="true"];
-node0x562afd11dba0 -> node0x562afd11dd20 [label="false"];
-node0x562afd11dd20 -> node0x562afd11dde0 [label="false"];
-node0x562afd11dde0 -> node0x562afd11dea0 [label="false"];
-node0x562afd11dea0 -> node0x562afd11df60 [label="false"];
-node0x562afd11dea0 -> node0x562afd11df00 [label="true"];
-node0x562afd11dde0 -> node0x562afd11de40 [label="true"];
-node0x562afd11dd20 -> node0x562afd11dd80 [label="true"];
-node0x562afd11dba0 -> node0x562afd11dc00 [label="true"];
-node0x562afd11dc00 -> node0x562afd11dcc0 [label="false"];
-node0x562afd11dc00 -> node0x562afd11dc60 [label="true"];
-node0x562afd11d5a0 -> node0x562afd11d600 [label="true"];
-node0x562afd11d600 -> node0x562afd11d9c0 [label="false"];
-node0x562afd11d9c0 -> node0x562afd11da80 [label="false"];
-node0x562afd11d9c0 -> node0x562afd11da20 [label="true"];
-node0x562afd11d600 -> node0x562afd11d660 [label="true"];
-node0x562afd11d660 -> node0x562afd11d8a0 [label="false"];
-node0x562afd11d8a0 -> node0x562afd11d960 [label="false"];
-node0x562afd11d8a0 -> node0x562afd11d900 [label="true"];
-node0x562afd11d660 -> node0x562afd11d6c0 [label="true"];
-node0x562afd11d6c0 -> node0x562afd11d780 [label="false"];
-node0x562afd11d780 -> node0x562afd11d840 [label="false"];
-node0x562afd11d780 -> node0x562afd11d7e0 [label="true"];
-node0x562afd11d6c0 -> node0x562afd11d720 [label="true"];
-node0x562afd11cd60 -> node0x562afd11cdc0 [label="true"];
-node0x562afd11cdc0 -> node0x562afd11d180 [label="false"];
-node0x562afd11d180 -> node0x562afd11d3c0 [label="false"];
-node0x562afd11d3c0 -> node0x562afd11d480 [label="false"];
-node0x562afd11d480 -> node0x562afd11d540 [label="false"];
-node0x562afd11d480 -> node0x562afd11d4e0 [label="true"];
-node0x562afd11d3c0 -> node0x562afd11d420 [label="true"];
-node0x562afd11d180 -> node0x562afd11d1e0 [label="true"];
-node0x562afd11d1e0 -> node0x562afd11d2a0 [label="false"];
-node0x562afd11d2a0 -> node0x562afd11d360 [label="false"];
-node0x562afd11d2a0 -> node0x562afd11d300 [label="true"];
-node0x562afd11d1e0 -> node0x562afd11d240 [label="true"];
-node0x562afd11cdc0 -> node0x562afd11ce20 [label="true"];
-node0x562afd11ce20 -> node0x562afd11cfa0 [label="false"];
-node0x562afd11cfa0 -> node0x562afd11d060 [label="false"];
-node0x562afd11d060 -> node0x562afd11d120 [label="false"];
-node0x562afd11d060 -> node0x562afd11d0c0 [label="true"];
-node0x562afd11cfa0 -> node0x562afd11d000 [label="true"];
-node0x562afd11ce20 -> node0x562afd11ce80 [label="true"];
-node0x562afd11ce80 -> node0x562afd11cf40 [label="false"];
-node0x562afd11ce80 -> node0x562afd11cee0 [label="true"];
-node0x562afd11c520 -> node0x562afd11c580 [label="true"];
-node0x562afd11c580 -> node0x562afd11c640 [label="false"];
-node0x562afd11c640 -> node0x562afd11c880 [label="false"];
-node0x562afd11c880 -> node0x562afd11ca00 [label="false"];
-node0x562afd11ca00 -> node0x562afd11cc40 [label="false"];
-node0x562afd11cc40 -> node0x562afd11cd00 [label="false"];
-node0x562afd11cc40 -> node0x562afd11cca0 [label="true"];
-node0x562afd11ca00 -> node0x562afd11ca60 [label="true"];
-node0x562afd11ca60 -> node0x562afd11cbe0 [label="false"];
-node0x562afd11ca60 -> node0x562afd11cac0 [label="true"];
-node0x562afd11cac0 -> node0x562afd11cb80 [label="false"];
-node0x562afd11cac0 -> node0x562afd11cb20 [label="true"];
-node0x562afd11c880 -> node0x562afd11c8e0 [label="true"];
-node0x562afd11c8e0 -> node0x562afd11c9a0 [label="false"];
-node0x562afd11c8e0 -> node0x562afd11c940 [label="true"];
-node0x562afd11c640 -> node0x562afd11c6a0 [label="true"];
-node0x562afd11c6a0 -> node0x562afd11c820 [label="false"];
-node0x562afd11c6a0 -> node0x562afd11c700 [label="true"];
-node0x562afd11c700 -> node0x562afd11c7c0 [label="false"];
-node0x562afd11c700 -> node0x562afd11c760 [label="true"];
-node0x562afd11c580 -> node0x562afd11c5e0 [label="true"];
-node0x562afd11c160 -> node0x562afd11c1c0 [label="true"];
-node0x562afd11c1c0 -> node0x562afd11c280 [label="false"];
-node0x562afd11c280 -> node0x562afd11c340 [label="false"];
-node0x562afd11c340 -> node0x562afd11c400 [label="false"];
-node0x562afd11c400 -> node0x562afd11c4c0 [label="false"];
-node0x562afd11c400 -> node0x562afd11c460 [label="true"];
-node0x562afd11c340 -> node0x562afd11c3a0 [label="true"];
-node0x562afd11c280 -> node0x562afd11c2e0 [label="true"];
-node0x562afd11c1c0 -> node0x562afd11c220 [label="true"];
-node0x562afd119400 -> node0x562afd11b620 [label="true"];
-node0x562afd11b620 -> node0x562afd11bc20 [label="false"];
-node0x562afd11bc20 -> node0x562afd11c0a0 [label="false"];
-node0x562afd11bc20 -> node0x562afd11bc80 [label="true"];
-node0x562afd11bc80 -> node0x562afd11be00 [label="false"];
-node0x562afd11be00 -> node0x562afd11c040 [label="false"];
-node0x562afd11be00 -> node0x562afd11be60 [label="true"];
-node0x562afd11be60 -> node0x562afd11bfe0 [label="false"];
-node0x562afd11be60 -> node0x562afd11bec0 [label="true"];
-node0x562afd11bec0 -> node0x562afd11bf80 [label="false"];
-node0x562afd11bec0 -> node0x562afd11bf20 [label="true"];
-node0x562afd11bc80 -> node0x562afd11bce0 [label="true"];
-node0x562afd11bce0 -> node0x562afd11bda0 [label="false"];
-node0x562afd11bce0 -> node0x562afd11bd40 [label="true"];
-node0x562afd11b620 -> node0x562afd11b680 [label="true"];
-node0x562afd11b680 -> node0x562afd11b800 [label="false"];
-node0x562afd11b800 -> node0x562afd11b8c0 [label="false"];
-node0x562afd11b8c0 -> node0x562afd11b980 [label="false"];
-node0x562afd11b980 -> node0x562afd11ba40 [label="false"];
-node0x562afd11ba40 -> node0x562afd11bb00 [label="false"];
-node0x562afd11bb00 -> node0x562afd11bbc0 [label="false"];
-node0x562afd11bb00 -> node0x562afd11bb60 [label="true"];
-node0x562afd11ba40 -> node0x562afd11baa0 [label="true"];
-node0x562afd11b980 -> node0x562afd11b9e0 [label="true"];
-node0x562afd11b8c0 -> node0x562afd11b920 [label="true"];
-node0x562afd11b800 -> node0x562afd11b860 [label="true"];
-node0x562afd11b680 -> node0x562afd11b6e0 [label="true"];
-node0x562afd11b6e0 -> node0x562afd11b7a0 [label="false"];
-node0x562afd11b6e0 -> node0x562afd11b740 [label="true"];
+node0x563d297ec310[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ec310 [label="	more rich than neighbor
+"];
+node0x563d297ec370[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ec370 [label="Dominican republic
+"];
+node0x563d297ec3d0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ec3d0 [label="Haiti
+"];
+node0x563d297ec430[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ec430 [label="	known due to Caribbean crisis
+"];
+node0x563d297ec490[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ec490 [label="Cuba
+"];
+node0x563d297ec4f0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ec4f0 [label="Curacao
+"];
+node0x563d297ec550[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ec550 [label="	was the part of UK in the past
+"];
+node0x563d297ec5b0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ec5b0 [label="	the best country in hockey
+"];
+node0x563d297ec610[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ec610 [label="Canada
+"];
+node0x563d297ec670[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ec670 [label="	the world superpower
+"];
+node0x563d297ec6d0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ec6d0 [label="USA
+"];
+node0x563d297ec730[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ec730 [label="Belize
+"];
+node0x563d297ec790[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ec790 [label="	has a famous canal
+"];
+node0x563d297ec7f0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ec7f0 [label="Panama
+"];
+node0x563d297ec850[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ec850 [label="	the best place for surfers
+"];
+node0x563d297ec8b0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ec8b0 [label="Costa Rica
+"];
+node0x563d297ec910[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ec910 [label="	the homeland of Burrito
+"];
+node0x563d297ec970[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ec970 [label="Mexico
+"];
+node0x563d297ec9d0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ec9d0 [label="	was taken part in football war
+"];
+node0x563d297eca30[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eca30 [label="	the smallest in Central America
+"];
+node0x563d297eca90[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eca90 [label="Salvador
+"];
+node0x563d297ecaf0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ecaf0 [label="Honduras
+"];
+node0x563d297ecb50[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ecb50 [label="	the most populated in Central America
+"];
+node0x563d297ecbb0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ecbb0 [label="Guatemala
+"];
+node0x563d297ecc10[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ecc10 [label="Nicaragua
+"];
+node0x563d297ecc70[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ecc70 [label="	was the place for film The Lord of the rings
+"];
+node0x563d297eccd0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297eccd0 [label="New Zeland
+"];
+node0x563d297ecd30[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ecd30 [label="	continent and country at once
+"];
+node0x563d297ecd90[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ecd90 [label="Australia
+"];
+node0x563d297ecdf0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ecdf0 [label="	was the Spanish and USA colony, was occupied by Japan in WW2
+"];
+node0x563d297ece50[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ece50 [label="Philippines
+"];
+node0x563d297eceb0[ style = "filled, rounded", fillcolor = "gold"]node0x563d297eceb0 [label="	has an island with population more than Russian
+"];
+node0x563d297ecf10[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ecf10 [label="Indonesia
+"];
+node0x563d297ecf70[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ecf70 [label="	was the part of Portugal and Indonesia
+"];
+node0x563d297ecfd0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ecfd0 [label="East Timor
+"];
+node0x563d297ed030[ style = "filled, rounded", fillcolor = "gold"]node0x563d297ed030 [label="	small rich country on Borneo
+"];
+node0x563d297ed090[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ed090 [label="Brunei
+"];
+node0x563d297ed0f0[ style = "filled, rounded", fillcolor = "lime"]node0x563d297ed0f0 [label="Papua New Guinea
+"];
+node0x563d297e5400 -> node0x563d297e91f0 [label="false"];
+node0x563d297e91f0 -> node0x563d297eb6b0 [label="false"];
+node0x563d297eb6b0 -> node0x563d297ecc70 [label="false"];
+node0x563d297ecc70 -> node0x563d297ecd30 [label="false"];
+node0x563d297ecd30 -> node0x563d297ecdf0 [label="false"];
+node0x563d297ecdf0 -> node0x563d297eceb0 [label="false"];
+node0x563d297eceb0 -> node0x563d297ecf70 [label="false"];
+node0x563d297ecf70 -> node0x563d297ed030 [label="false"];
+node0x563d297ed030 -> node0x563d297ed0f0 [label="false"];
+node0x563d297ed030 -> node0x563d297ed090 [label="true"];
+node0x563d297ecf70 -> node0x563d297ecfd0 [label="true"];
+node0x563d297eceb0 -> node0x563d297ecf10 [label="true"];
+node0x563d297ecdf0 -> node0x563d297ece50 [label="true"];
+node0x563d297ecd30 -> node0x563d297ecd90 [label="true"];
+node0x563d297ecc70 -> node0x563d297eccd0 [label="true"];
+node0x563d297eb6b0 -> node0x563d297eb710 [label="true"];
+node0x563d297eb710 -> node0x563d297ec010 [label="false"];
+node0x563d297ec010 -> node0x563d297ec550 [label="false"];
+node0x563d297ec550 -> node0x563d297ec790 [label="false"];
+node0x563d297ec790 -> node0x563d297ec850 [label="false"];
+node0x563d297ec850 -> node0x563d297ec910 [label="false"];
+node0x563d297ec910 -> node0x563d297ec9d0 [label="false"];
+node0x563d297ec9d0 -> node0x563d297ecb50 [label="false"];
+node0x563d297ecb50 -> node0x563d297ecc10 [label="false"];
+node0x563d297ecb50 -> node0x563d297ecbb0 [label="true"];
+node0x563d297ec9d0 -> node0x563d297eca30 [label="true"];
+node0x563d297eca30 -> node0x563d297ecaf0 [label="false"];
+node0x563d297eca30 -> node0x563d297eca90 [label="true"];
+node0x563d297ec910 -> node0x563d297ec970 [label="true"];
+node0x563d297ec850 -> node0x563d297ec8b0 [label="true"];
+node0x563d297ec790 -> node0x563d297ec7f0 [label="true"];
+node0x563d297ec550 -> node0x563d297ec5b0 [label="true"];
+node0x563d297ec5b0 -> node0x563d297ec670 [label="false"];
+node0x563d297ec670 -> node0x563d297ec730 [label="false"];
+node0x563d297ec670 -> node0x563d297ec6d0 [label="true"];
+node0x563d297ec5b0 -> node0x563d297ec610 [label="true"];
+node0x563d297ec010 -> node0x563d297ec070 [label="true"];
+node0x563d297ec070 -> node0x563d297ec2b0 [label="false"];
+node0x563d297ec2b0 -> node0x563d297ec430 [label="false"];
+node0x563d297ec430 -> node0x563d297ec4f0 [label="false"];
+node0x563d297ec430 -> node0x563d297ec490 [label="true"];
+node0x563d297ec2b0 -> node0x563d297ec310 [label="true"];
+node0x563d297ec310 -> node0x563d297ec3d0 [label="false"];
+node0x563d297ec310 -> node0x563d297ec370 [label="true"];
+node0x563d297ec070 -> node0x563d297ec0d0 [label="true"];
+node0x563d297ec0d0 -> node0x563d297ec190 [label="false"];
+node0x563d297ec190 -> node0x563d297ec250 [label="false"];
+node0x563d297ec190 -> node0x563d297ec1f0 [label="true"];
+node0x563d297ec0d0 -> node0x563d297ec130 [label="true"];
+node0x563d297eb710 -> node0x563d297eb770 [label="true"];
+node0x563d297eb770 -> node0x563d297ebb30 [label="false"];
+node0x563d297ebb30 -> node0x563d297ebe30 [label="false"];
+node0x563d297ebe30 -> node0x563d297ebef0 [label="false"];
+node0x563d297ebef0 -> node0x563d297ebfb0 [label="false"];
+node0x563d297ebef0 -> node0x563d297ebf50 [label="true"];
+node0x563d297ebe30 -> node0x563d297ebe90 [label="true"];
+node0x563d297ebb30 -> node0x563d297ebb90 [label="true"];
+node0x563d297ebb90 -> node0x563d297ebc50 [label="false"];
+node0x563d297ebc50 -> node0x563d297ebd10 [label="false"];
+node0x563d297ebd10 -> node0x563d297ebdd0 [label="false"];
+node0x563d297ebd10 -> node0x563d297ebd70 [label="true"];
+node0x563d297ebc50 -> node0x563d297ebcb0 [label="true"];
+node0x563d297ebb90 -> node0x563d297ebbf0 [label="true"];
+node0x563d297eb770 -> node0x563d297eb7d0 [label="true"];
+node0x563d297eb7d0 -> node0x563d297eb890 [label="false"];
+node0x563d297eb890 -> node0x563d297eb950 [label="false"];
+node0x563d297eb950 -> node0x563d297eba10 [label="false"];
+node0x563d297eba10 -> node0x563d297ebad0 [label="false"];
+node0x563d297eba10 -> node0x563d297eba70 [label="true"];
+node0x563d297eb950 -> node0x563d297eb9b0 [label="true"];
+node0x563d297eb890 -> node0x563d297eb8f0 [label="true"];
+node0x563d297eb7d0 -> node0x563d297eb830 [label="true"];
+node0x563d297e91f0 -> node0x563d297e9250 [label="true"];
+node0x563d297e9250 -> node0x563d297e9610 [label="false"];
+node0x563d297e9610 -> node0x563d297e9e50 [label="false"];
+node0x563d297e9e50 -> node0x563d297ea690 [label="false"];
+node0x563d297ea690 -> node0x563d297eabd0 [label="false"];
+node0x563d297eabd0 -> node0x563d297eb4d0 [label="false"];
+node0x563d297eb4d0 -> node0x563d297eb650 [label="false"];
+node0x563d297eb4d0 -> node0x563d297eb530 [label="true"];
+node0x563d297eb530 -> node0x563d297eb5f0 [label="false"];
+node0x563d297eb530 -> node0x563d297eb590 [label="true"];
+node0x563d297eabd0 -> node0x563d297eac30 [label="true"];
+node0x563d297eac30 -> node0x563d297eb0b0 [label="false"];
+node0x563d297eb0b0 -> node0x563d297eb3b0 [label="false"];
+node0x563d297eb3b0 -> node0x563d297eb470 [label="false"];
+node0x563d297eb3b0 -> node0x563d297eb410 [label="true"];
+node0x563d297eb0b0 -> node0x563d297eb110 [label="true"];
+node0x563d297eb110 -> node0x563d297eb290 [label="false"];
+node0x563d297eb290 -> node0x563d297eb350 [label="false"];
+node0x563d297eb290 -> node0x563d297eb2f0 [label="true"];
+node0x563d297eb110 -> node0x563d297eb170 [label="true"];
+node0x563d297eb170 -> node0x563d297eb230 [label="false"];
+node0x563d297eb170 -> node0x563d297eb1d0 [label="true"];
+node0x563d297eac30 -> node0x563d297eac90 [label="true"];
+node0x563d297eac90 -> node0x563d297eae10 [label="false"];
+node0x563d297eae10 -> node0x563d297eaed0 [label="false"];
+node0x563d297eaed0 -> node0x563d297eaf90 [label="false"];
+node0x563d297eaf90 -> node0x563d297eb050 [label="false"];
+node0x563d297eaf90 -> node0x563d297eaff0 [label="true"];
+node0x563d297eaed0 -> node0x563d297eaf30 [label="true"];
+node0x563d297eae10 -> node0x563d297eae70 [label="true"];
+node0x563d297eac90 -> node0x563d297eacf0 [label="true"];
+node0x563d297eacf0 -> node0x563d297eadb0 [label="false"];
+node0x563d297eacf0 -> node0x563d297ead50 [label="true"];
+node0x563d297ea690 -> node0x563d297ea6f0 [label="true"];
+node0x563d297ea6f0 -> node0x563d297eaab0 [label="false"];
+node0x563d297eaab0 -> node0x563d297eab70 [label="false"];
+node0x563d297eaab0 -> node0x563d297eab10 [label="true"];
+node0x563d297ea6f0 -> node0x563d297ea750 [label="true"];
+node0x563d297ea750 -> node0x563d297ea990 [label="false"];
+node0x563d297ea990 -> node0x563d297eaa50 [label="false"];
+node0x563d297ea990 -> node0x563d297ea9f0 [label="true"];
+node0x563d297ea750 -> node0x563d297ea7b0 [label="true"];
+node0x563d297ea7b0 -> node0x563d297ea870 [label="false"];
+node0x563d297ea870 -> node0x563d297ea930 [label="false"];
+node0x563d297ea870 -> node0x563d297ea8d0 [label="true"];
+node0x563d297ea7b0 -> node0x563d297ea810 [label="true"];
+node0x563d297e9e50 -> node0x563d297e9eb0 [label="true"];
+node0x563d297e9eb0 -> node0x563d297ea270 [label="false"];
+node0x563d297ea270 -> node0x563d297ea4b0 [label="false"];
+node0x563d297ea4b0 -> node0x563d297ea570 [label="false"];
+node0x563d297ea570 -> node0x563d297ea630 [label="false"];
+node0x563d297ea570 -> node0x563d297ea5d0 [label="true"];
+node0x563d297ea4b0 -> node0x563d297ea510 [label="true"];
+node0x563d297ea270 -> node0x563d297ea2d0 [label="true"];
+node0x563d297ea2d0 -> node0x563d297ea390 [label="false"];
+node0x563d297ea390 -> node0x563d297ea450 [label="false"];
+node0x563d297ea390 -> node0x563d297ea3f0 [label="true"];
+node0x563d297ea2d0 -> node0x563d297ea330 [label="true"];
+node0x563d297e9eb0 -> node0x563d297e9f10 [label="true"];
+node0x563d297e9f10 -> node0x563d297ea090 [label="false"];
+node0x563d297ea090 -> node0x563d297ea150 [label="false"];
+node0x563d297ea150 -> node0x563d297ea210 [label="false"];
+node0x563d297ea150 -> node0x563d297ea1b0 [label="true"];
+node0x563d297ea090 -> node0x563d297ea0f0 [label="true"];
+node0x563d297e9f10 -> node0x563d297e9f70 [label="true"];
+node0x563d297e9f70 -> node0x563d297ea030 [label="false"];
+node0x563d297e9f70 -> node0x563d297e9fd0 [label="true"];
+node0x563d297e9610 -> node0x563d297e9670 [label="true"];
+node0x563d297e9670 -> node0x563d297e9730 [label="false"];
+node0x563d297e9730 -> node0x563d297e9970 [label="false"];
+node0x563d297e9970 -> node0x563d297e9af0 [label="false"];
+node0x563d297e9af0 -> node0x563d297e9d30 [label="false"];
+node0x563d297e9d30 -> node0x563d297e9df0 [label="false"];
+node0x563d297e9d30 -> node0x563d297e9d90 [label="true"];
+node0x563d297e9af0 -> node0x563d297e9b50 [label="true"];
+node0x563d297e9b50 -> node0x563d297e9cd0 [label="false"];
+node0x563d297e9b50 -> node0x563d297e9bb0 [label="true"];
+node0x563d297e9bb0 -> node0x563d297e9c70 [label="false"];
+node0x563d297e9bb0 -> node0x563d297e9c10 [label="true"];
+node0x563d297e9970 -> node0x563d297e99d0 [label="true"];
+node0x563d297e99d0 -> node0x563d297e9a90 [label="false"];
+node0x563d297e99d0 -> node0x563d297e9a30 [label="true"];
+node0x563d297e9730 -> node0x563d297e9790 [label="true"];
+node0x563d297e9790 -> node0x563d297e9910 [label="false"];
+node0x563d297e9790 -> node0x563d297e97f0 [label="true"];
+node0x563d297e97f0 -> node0x563d297e98b0 [label="false"];
+node0x563d297e97f0 -> node0x563d297e9850 [label="true"];
+node0x563d297e9670 -> node0x563d297e96d0 [label="true"];
+node0x563d297e9250 -> node0x563d297e92b0 [label="true"];
+node0x563d297e92b0 -> node0x563d297e9370 [label="false"];
+node0x563d297e9370 -> node0x563d297e9430 [label="false"];
+node0x563d297e9430 -> node0x563d297e94f0 [label="false"];
+node0x563d297e94f0 -> node0x563d297e95b0 [label="false"];
+node0x563d297e94f0 -> node0x563d297e9550 [label="true"];
+node0x563d297e9430 -> node0x563d297e9490 [label="true"];
+node0x563d297e9370 -> node0x563d297e93d0 [label="true"];
+node0x563d297e92b0 -> node0x563d297e9310 [label="true"];
+node0x563d297e5400 -> node0x563d297e78d0 [label="true"];
+node0x563d297e78d0 -> node0x563d297e7ed0 [label="false"];
+node0x563d297e7ed0 -> node0x563d297e9190 [label="false"];
+node0x563d297e7ed0 -> node0x563d297e7f30 [label="true"];
+node0x563d297e7f30 -> node0x563d297e8d70 [label="false"];
+node0x563d297e8d70 -> node0x563d297e8ef0 [label="false"];
+node0x563d297e8ef0 -> node0x563d297e9130 [label="false"];
+node0x563d297e8ef0 -> node0x563d297e8f50 [label="true"];
+node0x563d297e8f50 -> node0x563d297e90d0 [label="false"];
+node0x563d297e8f50 -> node0x563d297e8fb0 [label="true"];
+node0x563d297e8fb0 -> node0x563d297e9070 [label="false"];
+node0x563d297e8fb0 -> node0x563d297e9010 [label="true"];
+node0x563d297e8d70 -> node0x563d297e8dd0 [label="true"];
+node0x563d297e8dd0 -> node0x563d297e8e90 [label="false"];
+node0x563d297e8dd0 -> node0x563d297e8e30 [label="true"];
+node0x563d297e7f30 -> node0x563d297e7f90 [label="true"];
+node0x563d297e7f90 -> node0x563d297e8590 [label="false"];
+node0x563d297e8590 -> node0x563d297e87d0 [label="false"];
+node0x563d297e87d0 -> node0x563d297e8ad0 [label="false"];
+node0x563d297e8ad0 -> node0x563d297e8c50 [label="false"];
+node0x563d297e8c50 -> node0x563d297e8d10 [label="false"];
+node0x563d297e8c50 -> node0x563d297e8cb0 [label="true"];
+node0x563d297e8ad0 -> node0x563d297e8b30 [label="true"];
+node0x563d297e8b30 -> node0x563d297e8bf0 [label="false"];
+node0x563d297e8b30 -> node0x563d297e8b90 [label="true"];
+node0x563d297e87d0 -> node0x563d297e8830 [label="true"];
+node0x563d297e8830 -> node0x563d297e89b0 [label="false"];
+node0x563d297e89b0 -> node0x563d297e8a70 [label="false"];
+node0x563d297e89b0 -> node0x563d297e8a10 [label="true"];
+node0x563d297e8830 -> node0x563d297e8890 [label="true"];
+node0x563d297e8890 -> node0x563d297e8950 [label="false"];
+node0x563d297e8890 -> node0x563d297e88f0 [label="true"];
+node0x563d297e8590 -> node0x563d297e85f0 [label="true"];
+node0x563d297e85f0 -> node0x563d297e8770 [label="false"];
+node0x563d297e85f0 -> node0x563d297e8650 [label="true"];
+node0x563d297e8650 -> node0x563d297e8710 [label="false"];
+node0x563d297e8650 -> node0x563d297e86b0 [label="true"];
+node0x563d297e7f90 -> node0x563d297e7ff0 [label="true"];
+node0x563d297e7ff0 -> node0x563d297e8530 [label="false"];
+node0x563d297e7ff0 -> node0x563d297e8050 [label="true"];
+node0x563d297e8050 -> node0x563d297e8350 [label="false"];
+node0x563d297e8350 -> node0x563d297e84d0 [label="false"];
+node0x563d297e8350 -> node0x563d297e83b0 [label="true"];
+node0x563d297e83b0 -> node0x563d297e8470 [label="false"];
+node0x563d297e83b0 -> node0x563d297e8410 [label="true"];
+node0x563d297e8050 -> node0x563d297e80b0 [label="true"];
+node0x563d297e80b0 -> node0x563d297e8230 [label="false"];
+node0x563d297e8230 -> node0x563d297e82f0 [label="false"];
+node0x563d297e8230 -> node0x563d297e8290 [label="true"];
+node0x563d297e80b0 -> node0x563d297e8110 [label="true"];
+node0x563d297e8110 -> node0x563d297e81d0 [label="false"];
+node0x563d297e8110 -> node0x563d297e8170 [label="true"];
+node0x563d297e78d0 -> node0x563d297e7930 [label="true"];
+node0x563d297e7930 -> node0x563d297e7ab0 [label="false"];
+node0x563d297e7ab0 -> node0x563d297e7b70 [label="false"];
+node0x563d297e7b70 -> node0x563d297e7c30 [label="false"];
+node0x563d297e7c30 -> node0x563d297e7cf0 [label="false"];
+node0x563d297e7cf0 -> node0x563d297e7db0 [label="false"];
+node0x563d297e7db0 -> node0x563d297e7e70 [label="false"];
+node0x563d297e7db0 -> node0x563d297e7e10 [label="true"];
+node0x563d297e7cf0 -> node0x563d297e7d50 [label="true"];
+node0x563d297e7c30 -> node0x563d297e7c90 [label="true"];
+node0x563d297e7b70 -> node0x563d297e7bd0 [label="true"];
+node0x563d297e7ab0 -> node0x563d297e7b10 [label="true"];
+node0x563d297e7930 -> node0x563d297e7990 [label="true"];
+node0x563d297e7990 -> node0x563d297e7a50 [label="false"];
+node0x563d297e7990 -> node0x563d297e79f0 [label="true"];
 }
