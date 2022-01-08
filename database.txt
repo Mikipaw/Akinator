@@ -1,14 +1,14 @@
 ?located in Eurasia.
 ?located on the island.
-?located in the Middeterrenian.
+?located in the Mediterranean.
 ?divided on the North and South.
 Cyprus.
 Malta.
-?have a volcanic past.
+?have a volcanic origin.
 Iceland.
 ?was the biggest empire in history.
-United kingdom.
-?have a huge territorical claims on the mainland.
+United Kingdom.
+?have a huge territorial claims on the mainland.
 Taiwan.
 ?well known due to famous sort of tea.
 Sri Lanka.
@@ -16,8 +16,46 @@ Sri Lanka.
 Japan.
 Ireland.
 ?located in Asia.
+?located in South West Asia.
+?located on Arabian peninsula.
+?have access to Persian Gulf.
+?the absolute monarchy.
+?have borders with more than one country.
+?have the highest percentage of migrants.
+UAE.
+Oman.
+?an organizer of football world cup 2022.
+Qatar.
+Bahrain.
+?has access to Red sea.
+?the biggest on peninsula.
+Saudi Arabia.
+Yemen.
+Kuwait.
+Yemen.
+?located on the Caucasus.
+?Christianity country.
+?landlocked.
+Armenia.
+Georgia.
+Azerbaijan.
+?has access to Mediterranean.
+?was in France in the past.
+?has some kurds.
+Syria.
+Lebanon.
+?has a piece in Europe.
+Turkey.
+Israel.
+?has access to the Persian gulf.
+?has access to the Caspian sea.
+Iran.
+Iraq.
+?landlocked.
+Afghanistan.
+Jordan.
 ?located in South Asia.
-?were the part of Pakistan until 1971.
+?was the part of Pakistan until 1971.
 Bangladesh.
 India.
 ?located in West Asia.
@@ -29,7 +67,7 @@ Israel.
 Mongolia.
 Montenegro.
 ?located in Africa.
-?has an access to the Mediterranian.
+?has access to the Mediterranean.
 ?the oldest country in the world.
 Egypt.
 ?has a border with Spain.
