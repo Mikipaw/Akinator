@@ -2,7 +2,7 @@
 
 ## Funny game with all countries in the world
 
-### System requirements
+### System and other requirements
 * OS: Linux  
 * espeak installed
 * geography knowledge
