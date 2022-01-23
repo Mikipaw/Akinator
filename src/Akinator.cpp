@@ -402,9 +402,13 @@ Stack Akinator::definition(const char* object) {
         strcat(speech, word);
 
         size_t number_of_words = Elements.Get_Size();
+        int shift = 0;
         for (int i = 1; i < number_of_words; ++i) {
-            sprintf(word, "%d)%s", i + 1, Elements.at(i).string);
-            strcat(speech, word);
+            if (strncmp("\tnot\tlocated", Elements.at(i).string, 11)) {
+                sprintf(word, "%d)%s", i + 1 - shift, Elements.at(i).string);
+                strcat(speech, word);
+            }
+            else shift++;
         }
 
         printf("%s", speech + ESPEAK_SIZE - 1);
