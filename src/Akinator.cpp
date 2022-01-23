@@ -87,7 +87,7 @@ int Akinator::do_question(Node* node) {
 
     char answer = 0;
     if (node->question) {
-        sprintf(freebuf, "Is the object %s?\n Press y (yes) or n (no)\n", node->data.string);
+        sprintf(freebuf, "Is the country %s?\n Press y (yes) or n (no)\n", node->data.string);
         speak(freebuf);
         if (!scanf("\n%c", &answer)) {
             printf("%c\n", answer);
@@ -130,6 +130,20 @@ int Akinator::Add_new_object (Node* node) {
     char* new_object = new char[LIMITED_SIZE_OF_STRING];
     getline(&freebuf, &_size, stdin);
     if (!getline(&new_object, &_size, stdin)) return INVALID_ANSWER;
+
+    if (this->contains(simple_string(new_object))) {
+        speak("Sorry, but the element is in the database already, so you did the mistake.\n"
+              "Please, try to find your country again.");
+
+        return ALL_OK;
+    }
+
+    while (new_object[0] < 'A' || new_object[0] > 'Z') {
+        speak("Invalid input! Please try again!\n"
+              "Check that name of the country have to start with huge letter");
+        getline(&new_object, &_size, stdin);
+    }
+
     node->left = new Node;
     node->left->data.string = new_object;
 
@@ -427,7 +441,7 @@ int speak(const char* string) {
     strcat(speech, string);
     replace_spaces(speech);
 
-    //system(speech);
+    system(speech);
 
     free(speech);
 

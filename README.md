@@ -10,4 +10,5 @@
 #### To install espeak:
     sudo apt install espeak
 
-### Coming soon...
+### BETA is available!
+#### Try it right now!

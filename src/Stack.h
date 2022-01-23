@@ -22,6 +22,11 @@ struct simple_string{
     explicit simple_string(size_t capacity) {
         string = new char[capacity];
     }
+
+    explicit simple_string(const char* word) {
+        string = strcpy(string, word);
+    }
+
     char* string = new char[LIMITED_SIZE_OF_STRING];
     size_t size = 0;
 };
