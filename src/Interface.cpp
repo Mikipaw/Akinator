@@ -25,12 +25,13 @@ int Interface() {
 
     while (answer != 'e') {
         speak("What do you want?");
-        puts(R"(
+        puts(R"([32m
         s - start the game
         d - get the definition of the object
         t - watch the picture of database
         c - compare 2 objects
-        e - save and exit)");
+        e - save and exit
+        [0m)");
 
         scanf("\n%c", &answer);
 
@@ -95,7 +96,6 @@ int Intro(const char* name) {
     return ALL_OK;
 }
 
-//TODO:change it
 const char* Get_name() {
     size_t _size = LIMITED_SIZE_OF_STRING;
     char* name = (char*) calloc(LIMITED_SIZE_OF_STRING, sizeof(char));

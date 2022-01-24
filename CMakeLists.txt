@@ -8,7 +8,7 @@ set(SOURCE_FILES
         src/Akinator.cpp
         src/Interface.cpp
         src/mystr.cpp
-        )
+        src/colors.h)
 
 add_executable(Akinator ${SOURCE_FILES})
 

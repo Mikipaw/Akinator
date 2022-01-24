@@ -9,6 +9,7 @@
 #include "Stack.h"
 #include "ErrorList.h"
 #include "mystr.h"
+#include "colors.h"
 
 typedef simple_string T;
 

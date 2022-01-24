@@ -51,7 +51,6 @@ void Akinator::f_round_(Node* node){
         size_t length = strlen(node->data.string);
 
         node->data.string[length - 1] = '.';
-        //node->data.string[length - 2] = '.';
 
         strcat (f_round_str, node->data.string);
         strcat (f_round_str, "\n");
@@ -95,8 +94,12 @@ int Akinator::do_question(Node* node) {
         }
 
         while (answer != 'y' && answer != 'n' && answer != 'e') {
+            RED_TEXT_COLOR
+
             speak("Invalid answer! Please try again or press e to return to the main menu\n");
             scanf("%c\n", &answer);
+
+            DEFAULT_TEXT_COLOR
         }
         if      (answer == 'y') return do_question(node->left);
         else if (answer == 'n') return do_question(node->right);
@@ -108,11 +111,19 @@ int Akinator::do_question(Node* node) {
     if (!scanf("\n%c", &answer)) return INVALID_ANSWER;
 
     while (answer != 'y' && answer != 'n' && answer != 'e') {
+        RED_TEXT_COLOR
+
         speak("Invalid answer! Please try again or press e to exit\n");
         scanf("%c\n", &answer);
+
+        DEFAULT_TEXT_COLOR
     }
 
-    if      (answer == 'y') speak("Haha!!! I won the game! It was so fucking easy!\n");
+    if      (answer == 'y') {
+        CYAN_TEXT_COLOR
+        speak("Haha!!! I won the game! It was so fucking easy!\n");
+        DEFAULT_TEXT_COLOR
+    }
     else if (answer == 'n') return Add_new_object(node);
     else if (answer == 'e') return ALL_OK;
 
@@ -132,16 +143,24 @@ int Akinator::Add_new_object (Node* node) {
     if (!getline(&new_object, &_size, stdin)) return INVALID_ANSWER;
 
     if (this->contains(simple_string(new_object))) {
+        RED_TEXT_COLOR
+
         speak("Sorry, but the element is in the database already, so you did the mistake.\n"
               "Please, try to find your country again.");
+
+        DEFAULT_TEXT_COLOR
 
         return ALL_OK;
     }
 
     while (new_object[0] < 'A' || new_object[0] > 'Z') {
+        RED_TEXT_COLOR
+
         speak("Invalid input! Please try again!\n"
               "Check that name of the country have to start with huge letter");
         getline(&new_object, &_size, stdin);
+
+        DEFAULT_TEXT_COLOR
     }
 
     node->left = new Node;
@@ -164,8 +183,12 @@ int Akinator::Add_new_object (Node* node) {
     node->data.string[0] = '\t';
     node->question = true;
 
+    GREEN_TEXT_COLOR
+
     speak("Thank you for game! See you later!\n");
     size += 2;
+
+    DEFAULT_TEXT_COLOR
 
     if (verification()) return verification();
 
@@ -340,9 +363,7 @@ int Akinator::Dump() {
     system (command2);
 
     free(command);
-    //free(command2);
 
-    //free(f_round_str);
     if (verification()) return verification();
 
     return ALL_OK;
@@ -397,6 +418,12 @@ Stack Akinator::definition(const char* object) {
     Node* result = search(ss);
 
     if (result != nullptr) {
+        char name[30];
+        name[0] = '\0';
+        strcat(name, "espeak ");
+        strcat(name, object);
+        system(name);
+
         strcpy(word, Elements.at(0).string);
         printf("%s is\n1)", object);
         strcat(speech, word);
@@ -423,7 +450,7 @@ Stack Akinator::definition(const char* object) {
         if (!std::isalpha(speech[i])) speech[i] = '_';
     }
 
-    strcat(speech, " -s 100");
+    strcat(speech, " -s 110");
 
     system(speech);
 
@@ -432,10 +459,10 @@ Stack Akinator::definition(const char* object) {
     return Elements;
 };
 
-//TODO:different colors in terminal
 
 int speak(const char* string) {
     assert(string);
+
     puts(string);
 
     char* speech = (char*) calloc(10 + strlen(string), sizeof(char));
@@ -497,7 +524,6 @@ int Akinator::Show_database() const {
     system (command2);
 
     free(command);
-    //free(command2);
 
     free(uf_round_str);
     if (verification()) return verification();
@@ -574,14 +600,25 @@ int Akinator::Compare(const char* lhs, const char* rhs) {
     if (number_of_words == 0) strcat(speech, "None\n");
 
     speak("Similarities:\n");
+
+    GREEN_TEXT_COLOR
+
     speak(speech);
 
+    DEFAULT_TEXT_COLOR
+
     speak("Differences:\n");
+
+    YELLOW_TEXT_COLOR
     sprintf(speech, "%s is %s\n", lhs, def_lhs.at(i).string);
     speak(speech);
 
+    CYAN_TEXT_COLOR
+
     sprintf(speech, "%s is %s\n", rhs, def_rhs.at(i).string);
     speak(speech);
+
+    DEFAULT_TEXT_COLOR
 
     free(speech);
     free(word);
