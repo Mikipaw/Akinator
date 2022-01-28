@@ -19,11 +19,12 @@ Have a fun! Good luck!
 ### System and other requirements
 * OS: Linux  
 * espeak installed
+* graphviz installed
 * geography knowledge
 
-#### To install espeak:
+#### To install dependencies:
     sudo apt install espeak
-
+    sudo apt install graphviz
 
 ### Mistakes
 If you find some bugs or mistakes, please, write me about it in [Gmail](mailto:pavlov.ma@phystech.edu)
